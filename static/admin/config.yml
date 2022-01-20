@@ -1,0 +1,47 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+#uncomment to test locally and run npx netlify-cms-proxy-server
+#local_backend: true
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/blog'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - {
+          label: 'Featured Image',
+          name: 'image',
+          widget: 'image',
+          choose_url: true,
+          default: 'kid-hero.jpg',
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'advocate'
+    label: 'Advocate With Us'
+    folder: 'content/advocate-with-mau/editable'
+    delete: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - {
+          label: 'Featured Image',
+          name: 'image',
+          widget: 'image',
+          choose_url: true,
+          default: 'kid-hero.jpg',
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+ 

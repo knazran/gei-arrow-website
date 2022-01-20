@@ -1,0 +1,47 @@
+{
+  "name": "gei-arrow-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "yarn lint:js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.14.0",
+    "@nuxtjs/axios": "^5.13.6",
+    "@open-wc/webpack-import-meta-loader": "^0.4.7",
+    "@tailwindcss/typography": "^0.4.1",
+    "core-js": "^3.15.1",
+    "es-dirname": "^0.1.0",
+    "nuxt": "^2.15.7",
+    "vue-horizontal": "^0.8.10",
+    "vue-horizontal-timeline": "^0.10.0",
+    "vue-slick-carousel": "^1.0.6"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@iconify-icons/mdi": "^1.1.16",
+    "@iconify/vue": "^1",
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/imagemin": "^1.0.1",
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "@vue/test-utils": "^1.2.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^27.0.5",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "jest": "^27.0.5",
+    "nuxt-vite": "^0.1.1",
+    "postcss": "^8.3.5",
+    "prettier": "^2.3.2",
+    "vue-jest": "^3.0.4"
+  }
+}
