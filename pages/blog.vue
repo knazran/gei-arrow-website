@@ -31,26 +31,12 @@
           </div>
         </PageSection>
       </div>
-      <div class="md:fixed md:bottom-0 md:right-0">
-        <img class="object-contain h-56 lg:h-72 xl:h-96 2xl:h-100" :src="bgBlog" />
-      </div>
     </div>
   </BackgroundWrapper>
 </template>
 
 <script>
-import bgBlog from '~/static/img/img_bg/gotta_read_this_bg.png'
 export default {
-  async asyncData({ $content }) {
-    const posts = await $content('blog').sortBy('date', 'desc').fetch()
-    return {
-      posts,
-    }
-  },
-  data() {
-    return {
-      bgBlog,
-    }
-  },
+  
 }
 </script>

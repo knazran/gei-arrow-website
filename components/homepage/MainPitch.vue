@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import TextureGreen from '~/static/img/background/panel-bg-1.jpg'
+import TextureGreen from '~/static/img/background/panel-bg-1.png'
 export default {
   data() {
     return {
