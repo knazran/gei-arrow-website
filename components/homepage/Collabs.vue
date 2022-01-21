@@ -11,18 +11,19 @@
           grid md:grid-cols-2 xl:grid-cols-3  gap-8 py-8
         "
       >
-        <NuxtLink
+        <a
           v-for="collab in collabs"
           :key="collab.name"
           class="flex justify-center hover:shadow-2xl hover:border"
-          :to="collab.link"
+          :href="collab.link"
+          target="_blank"
         >
           <SimpleThumbnailCard
             :is-button="false"
             :text-top="collab.name"
             :image="collab.image"
           />
-        </NuxtLink>
+        </a>
       </div>
     </div>
   </div>
