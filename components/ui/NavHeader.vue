@@ -43,30 +43,19 @@
                     Key Issues
                   </NuxtLink>
 
-                  <!-- <transition name="fade">
+                  <transition name="fade">
                     <ul v-if="listTwo" @click="listTwo = false">
-                      <li><a href="#">Sub Menu Item</a></li>
-                      <li><a href="#">Sub Menu Item</a></li>
-                      <li><a href="#">Sub Menu Item</a></li>
+                      <li><a href="#">Child Marriage</a></li>
+                      <li><a href="#">Comprehensive Sexuality Education (CSE)
+</a></li>
+                      <li><a href="#">Discrimination towards sexual and gender minorities.
+</a></li>
+                    <li><a href="#">Female Genital Mutilation</a></li>
+                    <li><a href="#">Sexual Reproductive Health & Rights Services.
+</a></li>
+                    <li><a href="#">Gender Based Violence</a></li>
                     </ul>
-                  </transition> -->
-                </li>
-
-                <li
-                  @mouseover="listThree = true"
-                  @mouseleave="listThree = false"
-                >
-                  <NuxtLink to="/key-issues" class="hover:bg-gei-secondary-200 rounded-md block">
-                    Our Advocacy Targets
-                  </NuxtLink>
-
-                  <!-- <transition name="fade">
-                    <ul v-if="listThree" @click="listThree = false">
-                      <li><a href="#">Sub Menu Item</a></li>
-                      <li><a href="#">Sub Menu Item</a></li>
-                      <li><a href="#">Sub Menu Item</a></li>
-                    </ul>
-                  </transition> -->
+                  </transition>
                 </li>
 
                 <li @mouseover="listFour = true" @mouseleave="listFour = false">
@@ -275,7 +264,7 @@ export default {
   position: relative;
   background: #ECB6D4;
   color: #6C2B8F;
-  min-width: 120px;
+  min-width: 160px;
 }
 
 .menu li ul {
