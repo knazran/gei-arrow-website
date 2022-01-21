@@ -19,7 +19,7 @@
             </p>
           </div>
           <div class="w-1/2">
-            <img src="static/img/about-us/about-us.jpg" />
+            <img src="~/static/img/about-us/about-us.jpg" />
           </div>
         </div>
 
@@ -51,7 +51,7 @@
       <section id="goals">
         <div class="flex items-center">
           <div class="w-1/2">
-            <img src="static/img/about-us/about-us.jpg" />
+            <img src="~/static/img/about-us/about-us.jpg" />
           </div>
           <div class="w-1/2 p-20">
             <h3 class="text-gei-tertiary-500 text-sm font-semibold mb-1">
@@ -246,7 +246,7 @@
                     <div class="w-1/2">
                       <img
                         class="rounded-lg"
-                        src="static/img/about-us/issue1.jpg"
+                        src="~/static/img/about-us/issue1.jpg"
                       />
                     </div>
                   </div>
@@ -291,7 +291,7 @@
                     <div class="w-1/2">
                       <img
                         class="rounded-lg"
-                        src="static/img/about-us/issue3.jpg"
+                        src="~/static/img/about-us/issue3.jpg"
                       />
                     </div>
                   </div>
@@ -313,7 +313,7 @@
                     <div class="w-1/2">
                       <img
                         class="rounded-lg"
-                        src="static/img/about-us/issue4.jpg"
+                        src="~/static/img/about-us/issue4.jpg"
                       />
                     </div>
                   </div>
@@ -336,7 +336,7 @@
                     <div class="w-1/2">
                       <img
                         class="rounded-lg"
-                        src="static/img/about-us/issue5.jpg"
+                        src="~/static/img/about-us/issue5.jpg"
                       />
                     </div>
                   </div>
@@ -357,7 +357,7 @@
                     <div class="w-1/2">
                       <img
                         class="rounded-lg"
-                        src="static/img/about-us/issue5.jpg"
+                        src="~/static/img/about-us/issue5.jpg"
                       />
                     </div>
                   </div>
@@ -377,7 +377,7 @@
           <div class="grid grid-cols-2 gap-4 mt-4">
             <div class="flex rounded-lg shadow-md bg-gei-secondary-200">
               <div class="w-2/5">
-                <img src="static/img/about-us/decision maker.png" />
+                <img src="~/static/img/about-us/decision maker.png" />
               </div>
               <div class="w-3/5 py-8 px-6">
                 <h3 class="text-gei-primary-500 font-semibold text-lg mb-4">
@@ -393,7 +393,7 @@
             </div>
             <div class="flex rounded-lg shadow-md bg-gei-secondary-200">
               <div class="w-2/5">
-                <img src="static/img/about-us/CSO.png" />
+                <img src="~/static/img/about-us/CSO.png" />
               </div>
               <div class="w-3/5 py-8 px-6">
                 <h3 class="text-gei-primary-500 font-semibold text-lg mb-4">
@@ -408,7 +408,7 @@
             </div>
             <div class="flex rounded-lg shadow-md bg-gei-secondary-200">
               <div class="w-2/5">
-                <img src="static/img/about-us/media.png" />
+                <img src="~/static/img/about-us/media.png" />
               </div>
               <div class="w-3/5 py-8 px-6">
                 <h3 class="text-gei-primary-500 font-semibold text-lg mb-4">
@@ -422,7 +422,7 @@
             </div>
             <div class="flex rounded-lg shadow-md bg-gei-secondary-200">
               <div class="w-2/5">
-                <img src="static/img/about-us/4.png" />
+                <img src="~/static/img/about-us/4.png" />
               </div>
               <div class="w-3/5 py-8 px-6">
                 <h3 class="text-gei-primary-500 font-semibold text-lg mb-4">

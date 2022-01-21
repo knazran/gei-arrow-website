@@ -8,7 +8,7 @@
             <img :src=partner.image class="h-40 object-contain">
         </div>
 
-        <img src="static/img/partners/EU.png" class="my-4 h-48 object-contain">
+        <img src="~/static/img/partners/EU.png" class="my-4 h-48 object-contain">
       </div>
     </div>
   </div>
