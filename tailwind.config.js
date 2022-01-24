@@ -93,6 +93,51 @@ module.exports = {
             },
           },
         },
+        'gei': {
+          css: {
+            maxWidth: null,
+            color: '#6C2B8F',
+            h1: {
+              color: '#381B68',
+            },
+            h2: {
+              color: '#381B68',
+            },
+            h3: {
+              color: '#381B68',
+            },
+            h4: {
+              color: '#381B68',
+            },
+            strong: {
+              color: '#381B68',
+            },
+            a: {
+              color: '#381B68',
+            },
+            li: {
+              color: '#381B68',
+              marginTop: em(16, 14),
+              marginBottom: em(16, 14),
+            },
+            ol: {
+              color: '#381B68',
+              marginTop: em(16, 14),
+              marginBottom: em(16, 14),
+            },
+            ul: {
+              color: '#381B68',
+              marginTop: em(4, 14),
+              marginBottom: em(4, 14),
+            },
+            blockquote: {
+              fontWeight: '500',
+              fontStyle: 'italic',
+              color: '#6C2B8F',
+              borderLeftWidth: '0.25rem',
+            },
+          },
+        },
         'lp': {
           css: {
             maxWidth: null,

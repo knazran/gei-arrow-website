@@ -7,9 +7,12 @@
         <div v-for="partner of partners" :key="partner.name" class="p-4 flex rounded-md justify-center w-1/2 md:w-1/3 ">
             <img :src=partner.image class="h-40 object-contain">
         </div>
-
+        <div class="flex flex-col mt-4 justify-center">
+          <h3 class="text-gei-primary-500 text-center">Funded by:</h3>
         <img src="~/static/img/partners/EU.png" class="my-4 h-48 object-contain">
-      </div>
+      
+        </div>
+        </div>
     </div>
   </div>
 </template>

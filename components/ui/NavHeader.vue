@@ -1,7 +1,7 @@
 <template>
   <nav class="sticky top-0 bg-gei-secondary-300 w-full z-40">
     <div class="container mx-auto px-2 sm:px-6 lg:px-8">
-      <div class="flex justify-between min-h-24 items-stretch">
+      <div class="flex justify-between min-h-2 items-stretch">
         <div
           class="
             flex-1 flex
@@ -22,44 +22,80 @@
               />
             </NuxtLink>
 
-            <div class='lg:px-4'>
+            <div class="hidden md:block lg:px-4">
               <ul class="menu">
                 <li @mouseover="listOne = true" @mouseleave="listOne = false">
-                  <NuxtLink to="/about-us" class="hover:bg-gei-secondary-200 rounded-md block">
+                  <NuxtLink
+                    to="/about-us"
+                    class="hover:bg-gei-secondary-200 rounded-md block"
+                  >
                     About Us
                   </NuxtLink>
-
-                  <!-- <transition name="fade">
-                    <ul v-if="listOne" @click="listOne = false">
-                      <li><a href="#">Sub Menu Item</a></li>
-                      <li><a href="#">Sub Menu Item</a></li>
-                      <li><a href="#">Sub Menu Item</a></li>
-                    </ul>
-                  </transition> -->
                 </li>
 
                 <li @mouseover="listTwo = true" @mouseleave="listTwo = false">
-                  <NuxtLink to="/key-issues" class="hover:bg-gei-secondary-200 rounded-md block">
-                    Key Issues
-                  </NuxtLink>
+                  <a class="hover:bg-gei-secondary-200 rounded-md block">Key Issues</a>
+                    
 
                   <transition name="fade">
                     <ul v-if="listTwo" @click="listTwo = false">
-                      <li><a href="#">Child Marriage</a></li>
-                      <li><a href="#">Comprehensive Sexuality Education (CSE)
-</a></li>
-                      <li><a href="#">Discrimination towards sexual and gender minorities.
-</a></li>
-                    <li><a href="#">Female Genital Mutilation</a></li>
-                    <li><a href="#">Sexual Reproductive Health & Rights Services.
-</a></li>
-                    <li><a href="#">Gender Based Violence</a></li>
+                      <li>
+                        <NuxtLink
+                          to="/key-issues/child-marriage"
+                          class="hover:bg-gei-secondary-200 rounded-md block"
+                        >
+                          Child Marriage
+                        </NuxtLink>
+                      </li>
+                      <li>
+                        <NuxtLink
+                          to="/key-issues/comprehensive-sexuality-edu"
+                          class="hover:bg-gei-secondary-200 rounded-md block"
+                        >
+                          Comprehensive Sexuality Education (CSE)
+                        </NuxtLink>
+                      </li>
+                      <li>
+                        <NuxtLink
+                          to="/key-issues/discrimination-towards-sexual-and-gender-minorities"
+                          class="hover:bg-gei-secondary-200 rounded-md block"
+                        >
+                          Discrimination towards sexual and gender minorities
+                        </NuxtLink>
+                      </li>
+                      <li>
+                        <NuxtLink
+                          to="/key-issues/fgmc"
+                          class="hover:bg-gei-secondary-200 rounded-md block"
+                        >
+                          Female Genital Mutilation
+                        </NuxtLink>
+                        </li>
+                      <li>
+                        <NuxtLink
+                          to="/key-issues/srhr"
+                          class="hover:bg-gei-secondary-200 rounded-md block"
+                        >
+                          Sexual Reproductive Health & Rights Services
+                        </NuxtLink>
+                      </li>
+                      <li>
+                        <NuxtLink
+                          to="/key-issues/gbv"
+                          class="hover:bg-gei-secondary-200 rounded-md block"
+                        >
+                          Gender Based Violence
+                        </NuxtLink>
+                      </li>
                     </ul>
                   </transition>
                 </li>
 
                 <li @mouseover="listFour = true" @mouseleave="listFour = false">
-                  <NuxtLink to="/key-issues" class="hover:bg-gei-secondary-200 rounded-md block">
+                  <NuxtLink
+                    to="/key-issues"
+                    class="hover:bg-gei-secondary-200 rounded-md block"
+                  >
                     Media
                   </NuxtLink>
 
@@ -72,7 +108,10 @@
                 </li>
 
                 <li>
-                  <NuxtLink to="/key-issues" class="hover:bg-gei-secondary-200 rounded-md block">
+                  <NuxtLink
+                    to="/key-issues"
+                    class="hover:bg-gei-secondary-200 rounded-md block"
+                  >
                     Join Us
                   </NuxtLink>
                 </li>
@@ -83,7 +122,14 @@
         <div class="inset-y-0 right-0 flex items-center pr-2">
           <div
             id="social-media"
-            class="flex space-x-1 lg:space-x-4 mb-4 md:mb-0 mx-4 items-start md:items-center"
+            class="
+              flex
+              space-x-1
+              lg:space-x-4
+              md:mb-0
+              mx-4
+              items-center
+            "
           >
             <a href="https://www.facebook.com/ARROW.Women " target="_blank">
               <iconify-icon
@@ -107,6 +153,29 @@
               />
             </a>
           </div>
+          <button
+            type="button"
+            class="
+              block
+              md:hidden
+              items-center
+              justify-center
+              p-2
+              rounded-md
+              focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white
+            "
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            @click="showMenu"
+          >
+            <span class="sr-only">Open main menu</span>
+
+            <iconify-icon
+              :icon="icons.menu"
+              height="28"
+              :style="{ color: '#6C2B8F' }"
+            />
+          </button>
         </div>
       </div>
     </div>
@@ -243,7 +312,7 @@ export default {
   font-size: 1.08em;
 }
 
-.menu {  
+.menu {
   font: 16px/1.5 'Open Sans', sans-serif;
   font-weight: 500;
   margin: 0;
@@ -254,16 +323,16 @@ export default {
 .menu a {
   display: block;
   padding: 20px;
-  color: #6C2B8F;
+  color: #6c2b8f;
   text-decoration: none;
 }
 
 .menu li {
-  display:block;
+  display: block;
   float: left;
   position: relative;
-  background: #ECB6D4;
-  color: #6C2B8F;
+  background: #ecb6d4;
+  color: #6c2b8f;
   min-width: 160px;
 }
 
@@ -276,18 +345,20 @@ export default {
 }
 
 .menu li ul li {
-  background: #ECB6D4;
-  transition: background .2s;
+  background: #ecb6d4;
+  transition: background 0.2s;
 }
 
 .menu li ul li:hover {
-  background: #F2CEE2;
+  background: #f2cee2;
 }
 
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .2s;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
 }
-.fade-enter, .fade-leave-active {
+.fade-enter,
+.fade-leave-active {
   opacity: 0;
 }
 </style>
