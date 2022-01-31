@@ -101,7 +101,7 @@
 
                   <transition name="fade">
                     <ul v-if="listFour" @click="listFour = false">
-                      <li><a href="#">News Room</a></li>
+                      <!-- <li><a href="#">News Room</a></li> -->
                       <li><a href="#">Media Features</a></li>
                     </ul>
                   </transition>
@@ -109,7 +109,7 @@
 
                 <li>
                   <NuxtLink
-                    to="/key-issues"
+                    to="/join-us"
                     class="hover:bg-gei-secondary-200 rounded-md block"
                   >
                     Join Us

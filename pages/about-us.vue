@@ -51,7 +51,7 @@
       <section id="goals">
         <div class="flex items-center">
           <div class="w-1/2">
-            <img src="~/static/img/about-us/about-us.jpg" />
+            <img src="~/static/img/about-us/about-us-2.jpg" />
           </div>
           <div class="w-1/2 p-20">
             <h3 class="text-gei-tertiary-500 text-sm font-semibold mb-1">

@@ -42,10 +42,10 @@
               <MenuButton text="Gender Based Violence" to="/key-issues/gbv"></MenuButton>
             </MenuAccordion>
             <MenuAccordion title="Media">
-              <MenuButton
+              <!-- <MenuButton
                 text="News Room"
                 to="/"
-              ></MenuButton>
+              ></MenuButton> -->
               <MenuButton
                 text="Media Features"
                 to="/"
@@ -53,7 +53,7 @@
             </MenuAccordion>
             <MenuButton
                 text="Join Us"
-                to="/"
+                to="/join-us"
               ></MenuButton>
 
             
