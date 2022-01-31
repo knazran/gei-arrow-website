@@ -43,9 +43,9 @@
             lg:items-start
           "
         >
-          <a>
+          <NuxtLink to='/about-us'>
             <AccentButtonLong text="Learn More About Us" />
-          </a>
+          </NuxtLink>
         </div>
         <!-- End Button -->
       </div>

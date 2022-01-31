@@ -61,7 +61,7 @@
             <p class="text-gei-primary-400">
               To enable a wide range of Malaysian CSOs to conduct advocacy
               activities on the ratification and implementation of core
-              international human rights conventions as well as on the adoption
+              international human rights conventions as well as o the adoption
               of the gender equality act and on the fulfilment of human rights
               of women, girls and LGBTI communities in Malaysia as well as to
               encourage broad-based public engagement with these issues.
