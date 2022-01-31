@@ -102,7 +102,12 @@
                   <transition name="fade">
                     <ul v-if="listFour" @click="listFour = false">
                       <!-- <li><a href="#">News Room</a></li> -->
-                      <li><a href="#">Media Features</a></li>
+                      <li><NuxtLink
+                    to="/media/media-features"
+                    class="hover:bg-gei-secondary-200 rounded-md block"
+                  >
+                    Media Features
+                  </NuxtLink></li>
                     </ul>
                   </transition>
                 </li>

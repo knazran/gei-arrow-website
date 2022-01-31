@@ -2,8 +2,8 @@
   <BackgroundWrapper>
     <div class="overflow-hidden">
       <section id="intro">
-        <div class="flex">
-          <div class="w-1/2 p-20">
+        <div class="md:flex">
+          <div class="w-full md:w-1/2 p-4 md:p-8 lg:p-20">
             <h3 class="text-gei-tertiary-500 text-sm font-semibold mb-1">
               About Us
             </h3>
@@ -18,13 +18,13 @@
               women, girls and LGBTIQ persons.
             </p>
           </div>
-          <div class="w-1/2">
+          <div class="w-full md:w-1/2">
             <img src="~/static/img/about-us/about-us.jpg" />
           </div>
         </div>
 
-        <div class="mt-8 px-20 flex">
-          <div class="w-1/2 pr-20">
+        <div class="mt-8 px-4 md:px-8 lg:px-20 md:flex">
+          <div class="w-full md:w-1/2 lg:pr-20">
             <p class="text-gei-primary-400">
               There are significant gaps that continue to exist in the
               implementation of constitutional provisions, laws and policies
@@ -33,7 +33,7 @@
               duty-bearers accountable.
             </p>
           </div>
-          <div class="w-1/2">
+          <div class="w-full md:w-1/2">
             <p class="text-gei-primary-400">
               For example, child marriage is prevalent in Malaysia and approved
               under Sharia and civil law – one of the major issues flagged in
@@ -49,12 +49,12 @@
       </section>
 
       <section id="goals">
-        <div class="flex items-center">
-          <div class="w-1/2">
+        <div class="md:flex items-center">
+          <div class="w-full md:w-1/2">
             <img src="~/static/img/about-us/about-us-2.jpg" />
           </div>
-          <div class="w-1/2 p-20">
-            <h3 class="text-gei-tertiary-500 text-sm font-semibold mb-1">
+          <div class="w-full md:w-1/2 p-4 md:p-8 lg:p-20">
+            <h3 class="text-gei-tertiary-500 text-sm font-semibold mb-1 text-center md:text-left">
               Our Goal
             </h3>
             <PageTitle title="An Equal Malaysia" />
@@ -81,7 +81,7 @@
 
       <section id="issues">
         <div class="flex flex-wrap">
-          <div class="w-full mx-12">
+          <div class="w-full mx-4 md:mx-12">
             <PageTitle title="Key Issues" />
             <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
               <li class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1">
@@ -227,10 +227,10 @@
               <div class="px-4 py-8 flex-auto">
                 <div class="tab-content tab-space">
                   <div
-                    class="flex"
+                    class="md:flex"
                     :class="{ hidden: openTab !== 1, block: openTab === 1 }"
                   >
-                    <div class="w-1/2 pr-12">
+                    <div class="w-full md:w-1/2 md:pr-12">
                       <h3
                         class="text-gei-tertiary-500 font-semibold text-xl mb-4"
                       >
@@ -243,7 +243,7 @@
                         Sembilan, Kedah and Kelantan)
                       </p>
                     </div>
-                    <div class="w-1/2">
+                    <div class="w-full md:w-1/2">
                       <img
                         class="rounded-lg"
                         src="~/static/img/about-us/issue1.jpg"
@@ -251,10 +251,10 @@
                     </div>
                   </div>
                   <div
-                    class="flex"
+                    class="md:flex"
                     :class="{ hidden: openTab !== 2, block: openTab === 2 }"
                   >
-                    <div class="w-1/2 pr-12">
+                    <div class="w-full md:w-1/2 pr-12">
                       <h3
                         class="text-gei-tertiary-500 font-semibold text-xl mb-4"
                       >
@@ -265,7 +265,7 @@
                         available and accessible for all.
                       </p>
                     </div>
-                    <div class="w-1/2">
+                    <div class="w-full md:w-1/2">
                       <img
                         class="rounded-lg"
                         src="static/img/about-us/issue2.jpg"
@@ -273,10 +273,10 @@
                     </div>
                   </div>
                   <div
-                    class="flex"
+                    class="md:flex"
                     :class="{ hidden: openTab !== 3, block: openTab === 3 }"
                   >
-                    <div class="w-1/2 pr-12">
+                    <div class="w-full md:w-1/2pr-12">
                       <h3
                         class="text-gei-tertiary-500 font-semibold text-xl mb-4"
                       >
@@ -288,7 +288,7 @@
                         minorities in Malaysia.
                       </p>
                     </div>
-                    <div class="w-1/2">
+                    <div class="w-full md:w-1/2">
                       <img
                         class="rounded-lg"
                         src="~/static/img/about-us/issue3.jpg"
@@ -296,10 +296,10 @@
                     </div>
                   </div>
                   <div
-                    class="flex"
+                    class="md:flex"
                     :class="{ hidden: openTab !== 4, block: openTab === 4 }"
                   >
-                    <div class="w-1/2 pr-12">
+                    <div class="w-full md:w-1/2 pr-12">
                       <h3
                         class="text-gei-tertiary-500 font-semibold text-xl mb-4"
                       >
@@ -310,7 +310,7 @@
                         Circumcision in Malaysia.
                       </p>
                     </div>
-                    <div class="w-1/2">
+                    <div class="w-full md:w-1/2">
                       <img
                         class="rounded-lg"
                         src="~/static/img/about-us/issue4.jpg"
@@ -318,10 +318,10 @@
                     </div>
                   </div>
                   <div
-                    class="flex"
+                    class="md:flex"
                     :class="{ hidden: openTab !== 5, block: openTab === 5 }"
                   >
-                    <div class="w-1/2 pr-12">
+                    <div class="w-full md:w-1/2 pr-12">
                       <h3
                         class="text-gei-tertiary-500 font-semibold text-xl mb-4"
                       >
@@ -333,7 +333,7 @@
                         prejudice.
                       </p>
                     </div>
-                    <div class="w-1/2">
+                    <div class="w-full md:w-1/2">
                       <img
                         class="rounded-lg"
                         src="~/static/img/about-us/issue5.jpg"
@@ -341,10 +341,10 @@
                     </div>
                   </div>
                   <div
-                    class="flex"
+                    class="md:flex"
                     :class="{ hidden: openTab !== 6, block: openTab === 6 }"
                   >
-                    <div class="w-1/2 pr-12">
+                    <div class="w-full md:w-1/2 pr-12">
                       <h3
                         class="text-gei-tertiary-500 font-semibold text-xl mb-4"
                       >
@@ -354,10 +354,10 @@
                         Leave No One Behind, End GBV NOW!
                       </p>
                     </div>
-                    <div class="w-1/2">
+                    <div class="w-full md:w-1/2">
                       <img
                         class="rounded-lg"
-                        src="~/static/img/about-us/issue5.jpg"
+                        src="~/static/img/about-us/issue-6.png"
                       />
                     </div>
                   </div>
@@ -369,12 +369,12 @@
       </section>
 
       <section id="targets">
-        <div class="w-full p-12">
+        <div class="w-full p-4 md:p-12">
           <PageTitle
             title="Our Advocacy Targets"
             description="To reach our goal for the Gender Equality Initiative in Malaysia, we need to ensure that the target groups for our advocacy efforts reach the identified stakeholders"
           />
-          <div class="grid grid-cols-2 gap-4 mt-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
             <div class="flex rounded-lg shadow-md bg-gei-secondary-200">
               <div class="w-2/5">
                 <img src="~/static/img/about-us/decision maker.png" />
