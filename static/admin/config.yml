@@ -29,19 +29,12 @@ collections:
           default: 'kid-hero.jpg',
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'advocate'
-    label: 'Advocate With Us'
-    folder: 'content/advocate-with-mau/editable'
+  - name: 'key-issues'
+    label: 'Key Issue'
+    folder: 'content/key-issues'
     delete: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - {
-          label: 'Featured Image',
-          name: 'image',
-          widget: 'image',
-          choose_url: true,
-          default: 'kid-hero.jpg',
-        }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
  
