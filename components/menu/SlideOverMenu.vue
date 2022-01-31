@@ -41,16 +41,16 @@
               <MenuButton text="Sexual Reproductive Health & Rights Services" to="/key-issues/srhr"></MenuButton>
               <MenuButton text="Gender Based Violence" to="/key-issues/gbv"></MenuButton>
             </MenuAccordion>
-            <MenuAccordion title="Media">
-              <!-- <MenuButton
+            <!-- <MenuAccordion title="Media">
+              <MenuButton
                 text="News Room"
                 to="/"
-              ></MenuButton> -->
+              ></MenuButton>
               <MenuButton
                 text="Media Features"
                 to="/media/media-features"
               ></MenuButton>
-            </MenuAccordion>
+            </MenuAccordion> -->
             <MenuButton
                 text="Join Us"
                 to="/join-us"

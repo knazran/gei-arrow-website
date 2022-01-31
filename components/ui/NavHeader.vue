@@ -91,7 +91,7 @@
                   </transition>
                 </li>
 
-                <li @mouseover="listFour = true" @mouseleave="listFour = false">
+                <!-- <li @mouseover="listFour = true" @mouseleave="listFour = false">
                   <NuxtLink
                     to="/key-issues"
                     class="hover:bg-gei-secondary-200 rounded-md block"
@@ -101,7 +101,6 @@
 
                   <transition name="fade">
                     <ul v-if="listFour" @click="listFour = false">
-                      <!-- <li><a href="#">News Room</a></li> -->
                       <li><NuxtLink
                     to="/media/media-features"
                     class="hover:bg-gei-secondary-200 rounded-md block"
@@ -110,7 +109,7 @@
                   </NuxtLink></li>
                     </ul>
                   </transition>
-                </li>
+                </li> -->
 
                 <li>
                   <NuxtLink

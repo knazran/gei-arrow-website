@@ -20,5 +20,5 @@ Important to not be misguided by the above fact as medicalisation of FGM/C is st
 
 Many Malaysians including important agencies believe that because female circumcision in this country is “harmless and did not have an impact on the sexual health of women,” there is no need for a fuss to eradicate it. It is high time we ponder on our set of beliefs and culture - “why invade women and girls’ bodies as though they are ours to decide?”
 
-Learn more about the fight to end FGM/C in Asia by following the Asia Network to End FGM/C: [www.endfgmcasia.org](www.endfgmcasia.org). 
+Learn more about the fight to end FGM/C in Asia by following the Asia Network to End FGM/C: [www.endfgmcasia.org](https://www.endfgmcasia.org). 
 

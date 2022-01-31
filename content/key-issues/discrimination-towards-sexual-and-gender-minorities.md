@@ -17,4 +17,4 @@ These legal inconsistencies on gender-based discrimination, education, women’s
 
 Former governments, Barisan Nasional (BN) and Pakatan Harapan (PH) had pledged to further this law to its realisation. Alas, to no avail as the efforts were unsuccessful despite several MPs having pushed for the implementation. :Although the latter made greater strides in this regard, its premature termination as government halted any potential progress. Meanwhile, the current Perikatan Nasional government has not indicated its position on this matter.” (FRHAM and ARROW, 2021).
 
-Read more [here](bit.ly/GEI_genderequality )
+Read more [here](https://bit.ly/GEI_genderequality )
