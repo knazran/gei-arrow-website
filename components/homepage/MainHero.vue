@@ -52,40 +52,20 @@
       <!-- End Left Side-->
 
       <!-- Right Side with Pic -->
-      <!-- <div class="hidden md:block lg:w-1/2">
+      <div class="hidden md:block lg:w-1/2">
         <div class="flex flex-col justify-center items-center">
           <img
             class="
-              lg:transform
-              lg:translate-x-16
-              -z-20
               object-cover
               xl:h-72
               2xl:h-80
-              border-2 border-mau-primary-700
               rounded-md
             "
-            src="../../static/img/homepage/Home_Panel1.1.jpg"
-            alt="Profile image"
-          />
-          <img
-            class="
-              hidden
-              lg:block
-              transform
-              -translate-x-16 -translate-y-12
-              -z-30
-              object-cover
-              xl:h-72
-              2xl:h-80
-              border-2 border-mau-primary-700
-              rounded-md
-            "
-            src="../../static/img/homepage/Home_Panel1.2.jpg"
+            src="../../static/gei-logo.png"
             alt="Profile image"
           />
         </div>
-      </div> -->
+      </div>
       <!--End Right side with Pic -->
     </div>
   </div>
