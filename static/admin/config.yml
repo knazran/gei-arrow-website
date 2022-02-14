@@ -42,6 +42,11 @@ collections:
     folder: 'content/media'
     delete: false
     fields:
-      - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Link', name: 'link', widget: 'string' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - label: "Features"
+        name: "features"
+        widget: "list"
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Link, name: link, widget: string }
  
