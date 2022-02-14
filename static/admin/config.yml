@@ -37,4 +37,11 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'media-mentions'
+    label: 'Media'
+    folder: 'content/media'
+    delete: false
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Link', name: 'link', widget: 'string' }
  
