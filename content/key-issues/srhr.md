@@ -1,7 +1,22 @@
 ---
 title: Sexual Reproductive Health & Rights Services
-subtitle: "We want to ensure that everyone in Malaysia can access Sexual
-  Reproductive Health & Rights without any prejudice.  "
+subtitle: SRHR include issues like abortion, HIV and other STIs, maternal health
+  and rights, contraceptive access, gender-based violence, discrimination and
+  stigma, and more. The Ministry of Health Malaysia (MOH) has made a commendable
+  effort in writing a thorough guideline for healthcare providers to bolster
+  young people’s access to Sexual Reproductive Health services in governmental
+  health facilities, aligned with the recommendations from the UN Special
+  Rapporteur on Health back in 2014. Nonetheless, the impact of the guideline is
+  still in question due to the lack of evidence for this particular
+  intervention.   Furthermore, MOH’s approach in improving young people’s
+  accessibility to sexual reproductive health & rights services is not reflected
+  in National Population and Family Development Board Malaysia (NPFDB)’s service
+  provision. Contraception services in NPFDB are only offered to married women
+  and do not cover unmarried individuals regardless of age. This perpetuates
+  stigma and confusion on the accessibility of these services towards unmarried
+  individuals in Malaysia. When young persons are removed from the works on
+  SRHR, we are abandoning a huge portion of the world’s population - are we
+  allowing this?
 next_issue: Gender Based Violence
 next_issue_link: /key-issues/gbv
 ---
