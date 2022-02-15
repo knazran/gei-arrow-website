@@ -1,6 +1,19 @@
 ---
 title: Female Genital Mutilation/Circumcision
-subtitle: We want to end any form of Female Genital Mutilation/ Circumcision in Malaysia. 
+subtitle: Female genital cutting is a contentious subject in Malaysia. This
+  divide between those who believe the practice should continue and those who do
+  not was compounded in 2009 after the National Fatwa Committee issued a fatwa
+  that made it obligatory (wajib) for Muslim women to be circumcised unless this
+  was potentially harmful to their wellbeing.  Different communities have cited
+  different reasons for the practice including religion, passage to womanhood,
+  hygiene, social identity (norm), tradition, culture, health, controlling or
+  enhancing women’s sexuality, protection of virginity, peer pressure, socio
+  economic status and marriageability. Though there is much debate on the issue,
+  there is little to no prevalence data and research available on FGM/C within
+  the country.  When norms and cultures override one’s bodily autonomy and
+  safety, should these cultures still be sustained? Are we brave enough to
+  challenge them? Are we in solidarity to protect girls and women from being
+  victimized?
 next_issue: Sexual Reproductive Health & Rights Services
 next_issue_link: /key-issues/srhr
 ---

@@ -1,6 +1,20 @@
 ---
 title: Discrimination towards sexual and gender minorities.
-subtitle: 
+subtitle: Since 2018, there have been no positive changes by the government in
+  relation to LGBTIQ persons.  Being a highly sensitive and contentious topic,
+  the government evades any demands to protect the rights of LGBTIQ
+  persons.   Amongst many other strong presence of discrimination against sexual
+  minorities in Malaysia, there are abundace of laws that criminalize LGBTIQ
+  persons have a systemic, direct and indirect impact on LGBTIQ persons; in
+  particular they affect access to healthcare, employment and self-acceptance,
+  among other areas.   As a state party to international treaties, Malaysia is
+  obligated to harmonize the treaty into domestic law in order to improve
+  standards of human rights domestically. The state is also expected to submit a
+  national report and be periodically reviewed by the respective committees that
+  monitor each human rights Convention. Malaysia has only been reviewed twice by
+  the CEDAW Committee. In the first review in 2006, no concluding observations
+  were made on LBTQI women-related issues.  “No one is free until we are all
+  free.”
 next_issue: Female Genital Mutilation/Circumcision
 next_issue_link: /key-issues/fgmc
 ---

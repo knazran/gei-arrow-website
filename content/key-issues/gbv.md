@@ -1,8 +1,18 @@
 ---
 title: Gender Based Violence
-subtitle: Leave No One Behind, End GBV NOW! 
-next_issue: 
-next_issue_link: 
+subtitle: Gender-based violence (GBV) refers to harmful acts directed at an
+  individual based on their gender. It is rooted in gender inequality, the abuse
+  of power and harmful norms and is a serious violation of human rights and a
+  life-threatening health and protection issue.   In Malaysia, statistics show
+  that the numbers of domestic violence and rape cases reported to the police
+  have sharply increased from 3.5k to 5.5k reported cases of domestic violence
+  from 2000 - 2018, with the actual unreported numbers considered to be much
+  higher. Based on statistics released by the Penang Women Centre for Change
+  (PWCC), one woman is raped every 35 minutes in Malaysia. Malaysia also does
+  not legally recognise marital rape.   What is a country without safeguarding
+  access to justice for victims of violence, abuse and danger?
+next_issue: null
+next_issue_link: null
 ---
 Malaysia has not recognised marital rape. Let that sink in.
 

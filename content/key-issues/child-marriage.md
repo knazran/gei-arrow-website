@@ -1,6 +1,20 @@
 ---
 title: Child Marriage
-subtitle: We are calling on the government to raise the minimum age of marriage in 7 states in Malaysia to 18 years old for all. (Sarawak, Pahang, Terengganu, Perlis, Negeri Sembilan, Kedah and Kelantan)
+subtitle: Malaysia has a dual legal system which practices a civil legal system
+  and an Islamic (Sharia) legal system. Muslim marriages are allowed 18 year old
+  boy and 16 year old girls. However, an exception is provided that allows a
+  child under those ages to marry with the consent of the Sharia Court, for
+  which there is no minimum age provided. Whilst for non-Muslim marriages, there
+  is also an exception whereby children below 18 are allowed to seek permission
+  from the Chief Minister to allow their marriage application.   Studies have
+  shown that the primary reason for child marriage is to avoid premarital sex
+  and being charged for khalwat (close proximity) for Muslims, family pressure
+  and pregnancy and that “religious dogmatism and moral shaming of sexual
+  relations outside marriage”. Contrary to common belief that poverty would be
+  the main determinant.  So, where do we go from here? We are calling on the
+  government to raise the minimum age of marriage in 7 states in Malaysia to 18
+  years old for all. (Sarawak, Pahang, Terengganu, Perlis, Negeri Sembilan,
+  Kedah and Kelantan).
 next_issue: Comprehensive Sexuality Education (CSE)
 next_issue_link: /key-issues/comprehensive-sexuality-edu
 ---
