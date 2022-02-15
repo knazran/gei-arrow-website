@@ -41,12 +41,7 @@ collections:
         fields:
           - {label: Name, name: name, widget: string}
           - {label: Link, name: link, widget: string }
-          - {
-          label: 'Image',
-          name: 'image',
-          widget: 'image',
-          choose_url: true,
-        }
+          - {label: 'Image',name: 'image',widget: 'image',choose_url: true}
   - name: 'key-issues'
     label: 'Key Issue'
     folder: 'content/key-issues'
