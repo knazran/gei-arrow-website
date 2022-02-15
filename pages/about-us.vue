@@ -81,7 +81,7 @@
 
       <section id="issues">
         <div class="flex flex-wrap">
-          <div class="w-full mx-4 md:mx-12">
+          <div class="w-full my-8 mx-4 md:mx-12">
             <PageTitle title="Key Issues" />
             <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
               <li class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1">
@@ -227,8 +227,7 @@
               <div class="px-4 py-8 flex-auto">
                 <div class="tab-content tab-space">
                   <div
-                    class="md:flex"
-                    :class="{ hidden: openTab !== 1, block: openTab === 1 }"
+                    :class="{ hidden: openTab !== 1, 'block md:flex': openTab === 1 }"
                   >
                     <div class="w-full md:w-1/2 md:pr-12">
                       <h3
@@ -251,8 +250,7 @@
                     </div>
                   </div>
                   <div
-                    class="md:flex"
-                    :class="{ hidden: openTab !== 2, block: openTab === 2 }"
+                    :class="{ hidden: openTab !== 2, 'block md:flex': openTab === 2 }"
                   >
                     <div class="w-full md:w-1/2 pr-12">
                       <h3
@@ -273,8 +271,7 @@
                     </div>
                   </div>
                   <div
-                    class="md:flex"
-                    :class="{ hidden: openTab !== 3, block: openTab === 3 }"
+                    :class="{ hidden: openTab !== 3, 'block md:flex': openTab === 3 }"
                   >
                     <div class="w-full md:w-1/2pr-12">
                       <h3
@@ -296,8 +293,7 @@
                     </div>
                   </div>
                   <div
-                    class="md:flex"
-                    :class="{ hidden: openTab !== 4, block: openTab === 4 }"
+                    :class="{ hidden: openTab !== 4, 'block md:flex': openTab === 4 }"
                   >
                     <div class="w-full md:w-1/2 pr-12">
                       <h3
@@ -318,8 +314,7 @@
                     </div>
                   </div>
                   <div
-                    class="md:flex"
-                    :class="{ hidden: openTab !== 5, block: openTab === 5 }"
+                    :class="{ hidden: openTab !== 5, 'block md:flex': openTab === 5 }"
                   >
                     <div class="w-full md:w-1/2 pr-12">
                       <h3
@@ -341,8 +336,7 @@
                     </div>
                   </div>
                   <div
-                    class="md:flex"
-                    :class="{ hidden: openTab !== 6, block: openTab === 6 }"
+                    :class="{ hidden: openTab !== 6, 'block md:flex': openTab === 6 }"
                   >
                     <div class="w-full md:w-1/2 pr-12">
                       <h3
@@ -368,7 +362,7 @@
         </div>
       </section>
 
-      <section id="targets">
+      <!-- <section id="targets">
         <div class="w-full p-4 md:p-12">
           <PageTitle
             title="Our Advocacy Targets"
@@ -436,7 +430,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </div>
   </BackgroundWrapper>
 </template>
