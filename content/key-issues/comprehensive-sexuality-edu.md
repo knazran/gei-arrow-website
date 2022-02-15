@@ -1,6 +1,21 @@
 ---
 title: Comprehensive Sexuality Education (CSE)
-subtitle: We want to ensure Comprehensive Sexuality Education is available and accessible for all.
+subtitle: "Comprehensive Sexuality Education (CSE) is a teaching syllabus on
+  sexuality which comprises multiple aspects - from cognitive to social skill.
+  It supports young people’s sexual reproductive health development in preparing
+  them with evidence-based information on their Sexual Reproductive Health and
+  Rights so they are able to make informed-decisions while living a fulfilling
+  life.   In Malaysia, efforts in advancing reproductive health through
+  education, information and services of the young people can be seen through
+  the National Policy on Reproductive Health and Social Education (Pekerti) and
+  its Plan of Action that was approved by the parliament in 2009.
+  However,  despite the numerous policies and initiatives in place, Malaysia’s
+  policies on sex education continue to lack clarity as none of them recognises
+  the importance of having comprehensive Sexual Reproductive Health and Rights
+  (SRHR) services which includes education.  It is time for us to embrace this
+  important knowledge openly and unconditionally to ensure accessibility to
+  quality and comprehensive information on people’s sexual health and
+  reproductive rights. "
 next_issue: Discrimination towards sexual and gender minorities.
 next_issue_link: /key-issues/discrimination-towards-sexual-and-gender-minorities
 ---
