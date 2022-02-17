@@ -16,9 +16,9 @@
               Key Issue
             </h3>
             <PageTitle :title="issue.title" />
-            <p class="text-gei-primary-400">
+            <!-- <p class="text-gei-primary-400">
               {{ issue.subtitle }}
-            </p>
+            </p> -->
           </div>
         </div>
 

@@ -19,7 +19,7 @@
             </p>
           </div>
           <div class="w-full md:w-1/2">
-            <img src="~/static/img/about-us/about-us.jpg" />
+            <img src="~/static/img/about-us/about-us-3.jpg" />
           </div>
         </div>
 
@@ -84,7 +84,7 @@
           <div class="w-full my-8 mx-4 md:mx-12">
             <PageTitle title="Key Issues" />
             <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
-              <li class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1">
+              <li v-for="issue, idx in keyIssues" :key="issue.title" class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1">
                 <a
                   class="
                     text-xs
@@ -99,147 +99,27 @@
                     hover:text-white hover:bg-gei-tertiary-500
                   "
                   :class="{
-                    'text-gei-tertiary-500 bg-white': openTab !== 1,
-                    'text-white bg-gei-tertiary-500': openTab === 1,
+                    'text-gei-tertiary-500 bg-white': openTab !== idx,
+                    'text-white bg-gei-tertiary-500': openTab === idx,
                   }"
-                  @click="toggleTabs(1)"
+                  @click="toggleTabs(idx)"
                 >
-                  Child Marriage
-                </a>
-              </li>
-              <li class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1">
-                <a
-                  class="
-                    text-xs
-                    font-bold
-                    uppercase
-                    px-5
-                    py-3
-                    shadow-lg
-                    rounded
-                    block
-                    leading-normal
-                    hover:text-white hover:bg-gei-tertiary-500
-                  "
-                  :class="{
-                    'text-gei-tertiary-500 bg-white': openTab !== 2,
-                    'text-white bg-gei-tertiary-500': openTab === 2,
-                  }"
-                  @click="toggleTabs(2)"
-                >
-                  Comprehensive Sexuality Education (CSE)
-                </a>
-              </li>
-              <li class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1">
-                <a
-                  class="
-                    text-xs
-                    font-bold
-                    uppercase
-                    px-5
-                    py-3
-                    shadow-lg
-                    rounded
-                    block
-                    leading-normal
-                    hover:text-white hover:bg-gei-tertiary-500
-                  "
-                  :class="{
-                    'text-gei-tertiary-500 bg-white': openTab !== 3,
-                    'text-white bg-gei-tertiary-500': openTab === 3,
-                  }"
-                  @click="toggleTabs(3)"
-                >
-                  Discrimination towards sexual and gender minorities
-                </a>
-              </li>
-              <li class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1">
-                <a
-                  class="
-                    text-xs
-                    font-bold
-                    uppercase
-                    px-5
-                    py-3
-                    shadow-lg
-                    rounded
-                    block
-                    leading-normal
-                    hover:text-white hover:bg-gei-tertiary-500
-                  "
-                  :class="{
-                    'text-gei-tertiary-500 bg-white': openTab !== 4,
-                    'text-white bg-gei-tertiary-500': openTab === 4,
-                  }"
-                  @click="toggleTabs(4)"
-                >
-                  Female Genital Mutilation
-                </a>
-              </li>
-              <li class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1">
-                <a
-                  class="
-                    text-xs
-                    font-bold
-                    uppercase
-                    px-5
-                    py-3
-                    shadow-lg
-                    rounded
-                    block
-                    leading-normal
-                    hover:text-white hover:bg-gei-tertiary-500
-                  "
-                  :class="{
-                    'text-gei-tertiary-500 bg-white': openTab !== 5,
-                    'text-white bg-gei-tertiary-500': openTab === 5,
-                  }"
-                  @click="toggleTabs(5)"
-                >
-                  Sexual Reproductive Health & Rights Services.
-                </a>
-              </li>
-              <li class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1">
-                <a
-                  class="
-                    text-xs
-                    font-bold
-                    uppercase
-                    px-5
-                    py-3
-                    shadow-lg
-                    rounded
-                    block
-                    leading-normal
-                    hover:text-white hover:bg-gei-tertiary-500
-                  "
-                  :class="{
-                    'text-gei-tertiary-500 bg-white': openTab !== 6,
-                    'text-white bg-gei-tertiary-500': openTab === 6,
-                  }"
-                  @click="toggleTabs(6)"
-                >
-                  Gender Based Violence
+                  {{issue.title}}
                 </a>
               </li>
             </ul>
             <div class="relative flex flex-col min-w-0 break-words w-full mb-6">
               <div class="px-4 py-8 flex-auto">
                 <div class="tab-content tab-space">
-                  <div
-                    :class="{ hidden: openTab !== 1, 'block md:flex': openTab === 1 }"
-                  >
+                  <div v-for="issue, idx in keyIssues" :key="issue.title" :class="{ hidden: openTab !== idx, 'block md:flex': openTab === idx }">
                     <div class="w-full md:w-1/2 md:pr-12">
                       <h3
                         class="text-gei-tertiary-500 font-semibold text-xl mb-4"
                       >
-                        Child Marriage
+                        {{issue.title}}
                       </h3>
                       <p class="text-gei-primary-500">
-                        We are calling on the government to raise the minimum
-                        age of marriage in 7 states in Malaysia to 18 years old
-                        for all. (Sarawak, Pahang, Terengganu, Perlis, Negeri
-                        Sembilan, Kedah and Kelantan)
+                        {{issue.subtitle}}
                       </p>
                     </div>
                     <div class="w-full md:w-1/2">
@@ -249,113 +129,7 @@
                       />
                     </div>
                   </div>
-                  <div
-                    :class="{ hidden: openTab !== 2, 'block md:flex': openTab === 2 }"
-                  >
-                    <div class="w-full md:w-1/2 pr-12">
-                      <h3
-                        class="text-gei-tertiary-500 font-semibold text-xl mb-4"
-                      >
-                        Comprehensive Sexuality Education (CSE)
-                      </h3>
-                      <p class="text-gei-primary-500">
-                        We want to ensure Comprehensive Sexuality Education is
-                        available and accessible for all.
-                      </p>
-                    </div>
-                    <div class="w-full md:w-1/2">
-                      <img
-                        class="rounded-lg"
-                        src="static/img/about-us/issue2.jpg"
-                      />
-                    </div>
                   </div>
-                  <div
-                    :class="{ hidden: openTab !== 3, 'block md:flex': openTab === 3 }"
-                  >
-                    <div class="w-full md:w-1/2pr-12">
-                      <h3
-                        class="text-gei-tertiary-500 font-semibold text-xl mb-4"
-                      >
-                        Discrimination towards sexual and gender minorities
-                      </h3>
-                      <p class="text-gei-primary-500">
-                        We want to advocate for the tabling of the Gender
-                        Equality Act is in place to protect sexual and gender
-                        minorities in Malaysia.
-                      </p>
-                    </div>
-                    <div class="w-full md:w-1/2">
-                      <img
-                        class="rounded-lg"
-                        src="~/static/img/about-us/issue3.jpg"
-                      />
-                    </div>
-                  </div>
-                  <div
-                    :class="{ hidden: openTab !== 4, 'block md:flex': openTab === 4 }"
-                  >
-                    <div class="w-full md:w-1/2 pr-12">
-                      <h3
-                        class="text-gei-tertiary-500 font-semibold text-xl mb-4"
-                      >
-                        Female Genital Mutilation
-                      </h3>
-                      <p class="text-gei-primary-500">
-                        We want to end any form of Female Genital Mutilation/
-                        Circumcision in Malaysia.
-                      </p>
-                    </div>
-                    <div class="w-full md:w-1/2">
-                      <img
-                        class="rounded-lg"
-                        src="~/static/img/about-us/issue4.jpg"
-                      />
-                    </div>
-                  </div>
-                  <div
-                    :class="{ hidden: openTab !== 5, 'block md:flex': openTab === 5 }"
-                  >
-                    <div class="w-full md:w-1/2 pr-12">
-                      <h3
-                        class="text-gei-tertiary-500 font-semibold text-xl mb-4"
-                      >
-                        Sexual Reproductive Health & Rights Services.
-                      </h3>
-                      <p class="text-gei-primary-500">
-                        We want to ensure that everyone in Malaysia can access
-                        Sexual Reproductive Health & Rights without any
-                        prejudice.
-                      </p>
-                    </div>
-                    <div class="w-full md:w-1/2">
-                      <img
-                        class="rounded-lg"
-                        src="~/static/img/about-us/issue5.jpg"
-                      />
-                    </div>
-                  </div>
-                  <div
-                    :class="{ hidden: openTab !== 6, 'block md:flex': openTab === 6 }"
-                  >
-                    <div class="w-full md:w-1/2 pr-12">
-                      <h3
-                        class="text-gei-tertiary-500 font-semibold text-xl mb-4"
-                      >
-                        Gender Based Violence
-                      </h3>
-                      <p class="text-gei-primary-500">
-                        Leave No One Behind, End GBV NOW!
-                      </p>
-                    </div>
-                    <div class="w-full md:w-1/2">
-                      <img
-                        class="rounded-lg"
-                        src="~/static/img/about-us/issue-6.png"
-                      />
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -439,8 +213,14 @@
 export default {
   data() {
     return {
-      openTab: 1,
+      openTab: 0,
+      keyIssues: []
     }
+  },
+  async fetch() {
+    // const data = await this.$content('key-issues').fetch()
+    this.keyIssues = await this.$content('key-issues').fetch()
+    console.log(this.keyIssues)
   },
   methods: {
     toggleTabs(tabNumber) {
