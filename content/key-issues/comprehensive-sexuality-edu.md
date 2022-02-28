@@ -26,7 +26,7 @@ For years, Malaysia has been on this long and dreadful rollercoaster ride of a d
 What many still fail to see is that comprehensive sexuality education can protect children from sexual violence and abuse, improve their sense of self and esteem, other than understanding their sexual health. CSE is a big umbrella that encompasses life-important lessons such as ((i) relationships, (ii) values, rights, culture and sexuality, (iii) understanding gender, (iv) violence and staying safe, (v) skills for health and well-being, (vi) the human body and development, (vii) sexuality and sexual behaviour, and (viii) sexual and reproductive health).
 
 <figure class='md:w-1/2 md:float-right md:px-8'>
-<img src="/img/key-issues/cse-1.png" alt="Trulli" class='rounded-md shadow-lg'>
+<img src="/img/key-issues/cse.jpg" alt="Trulli" class='rounded-md shadow-lg'>
 <figcaption align = "center"><b>Credits to Reuters</b></figcaption>
 </figure>
 
