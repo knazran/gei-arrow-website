@@ -125,7 +125,7 @@
                     <div class="w-full md:w-1/2">
                       <img
                         class="rounded-lg"
-                        src="~/static/img/about-us/issue1.jpg"
+                        :src="issue.image"
                       />
                     </div>
                   </div>

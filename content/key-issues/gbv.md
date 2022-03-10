@@ -13,6 +13,7 @@ subtitle: Gender-based violence (GBV) refers to harmful acts directed at an
   access to justice for victims of violence, abuse and danger?
 next_issue: null
 next_issue_link: null
+image: "/img/key-issues/gbv-2.png"
 ---
 Malaysia has not recognised marital rape. Let that sink in.
 

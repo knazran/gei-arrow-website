@@ -19,6 +19,7 @@ subtitle: SRHR include issues like abortion, HIV and other STIs, maternal health
   allowing this?
 next_issue: Gender Based Violence
 next_issue_link: /key-issues/gbv
+image: "/img/key-issues/shrh-2.jpg"
 ---
 The fourth priority area in the FRHAM Baseline Monitoring Framework is ensuring universal access to sexual and reproductive health and reproductive rights in accordance with the Cairo Programme of Action and the Beijing Platform of Action in 1994, as well as the outcome documents of their review conferences. 
 

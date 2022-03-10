@@ -18,6 +18,7 @@ subtitle: "Comprehensive Sexuality Education (CSE) is a teaching syllabus on
   reproductive rights. "
 next_issue: Discrimination towards sexual and gender minorities.
 next_issue_link: /key-issues/discrimination-towards-sexual-and-gender-minorities
+image: "/img/key-issues/cse.jpg"
 ---
 In 2011, a study by the National University of Malaysia (UKM) comparing PEERS against The United Nations Educational, Scientific and Cultural Organization (UNESCO)’s Comprehensive Sexuality Guidelines indicated that “90% of the respondents agreed that sex education had not been taught in Malaysian schools and the information given by most teachers is vague”. 
 

@@ -17,6 +17,7 @@ subtitle: Malaysia has a dual legal system which practices a civil legal system
   Kedah and Kelantan).
 next_issue: Comprehensive Sexuality Education (CSE)
 next_issue_link: /key-issues/comprehensive-sexuality-edu
+image: "/img/key-issues/child-marriage.jpg"
 ---
 <figure class='md:w-1/2 md:float-right md:px-8'>
 <img src="/img/key-issues/child-marriage.jpg" alt="Trulli" class='rounded-md shadow-lg'>
