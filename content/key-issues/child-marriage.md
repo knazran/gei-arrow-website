@@ -20,7 +20,7 @@ next_issue_link: /key-issues/comprehensive-sexuality-edu
 image: "/img/key-issues/child-marriage.jpg"
 ---
 <figure class='md:w-1/2 md:float-right md:px-8'>
-<img src="/img/key-issues/child-marriage.jpg" alt="Trulli" class='rounded-md shadow-lg'>
+<img src="/img/key-issues/child-marriage-1.png" alt="Trulli" class='rounded-md shadow-lg'>
 <figcaption align = "center"><b>Credits to #PelajarBukanPengantin</b></figcaption>
 </figure>
 

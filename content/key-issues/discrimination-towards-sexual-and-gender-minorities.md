@@ -22,7 +22,7 @@ image: "/img/key-issues/discrimination.jpg"
 In Malaysia, the highest law of the land – the Federal Constitution – states that all persons in this country are equal before the law and entitled to the equal protection of the law (Article 8(1). In addition, since 2001, Article 8(2) of this Constitution has prohibited discrimination on the basis of gender as stated, “there shall be no discrimination against citizens on the ground only of religion, race, descent, place of birth or gender in any law or in the appointment to any office or employment under a public authority or in the administration of any law relating to the acquisition, holding or disposition of property or the establishing or carrying on of any trade, business, profession, vocation or employment.”
 
 <figure class='md:w-1/2 md:float-right md:px-8'>
-<img src="/img/key-issues/discrimination.jpg" alt="Trulli" class='rounded-md shadow-lg'>
+<img src="/img/key-issues/gei-1.png" alt="Trulli" class='rounded-md shadow-lg'>
 <figcaption align="center"><b></b></figcaption>
 </figure>
 
