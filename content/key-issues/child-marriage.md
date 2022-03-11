@@ -19,10 +19,11 @@ next_issue: Comprehensive Sexuality Education (CSE)
 next_issue_link: /key-issues/comprehensive-sexuality-edu
 image: "/img/key-issues/child-marriage.jpg"
 ---
-<figure class='md:w-1/2 md:float-right md:px-8'>
+<div class='flex justify-center'>
+<figure class='md:w-1/2 md:px-8'>
 <img src="/img/key-issues/child-marriage-1.png" alt="Trulli" class='rounded-md shadow-lg'>
-<figcaption align = "center"><b>Credits to #PelajarBukanPengantin</b></figcaption>
-</figure>
+<figcaption align = "center"><b></b></figcaption>
+</figure></div>
 
 Due to the COVID1-9 pandemic. over 20,000 students have dropped out of school in the course of two years (MalaysiaKini, 2021). Without a shadow of doubt, displacing children away from schools may be one of the factors to increase the risk of them being subjected to child/early marriage.
 
@@ -30,10 +31,12 @@ Due to the COVID1-9 pandemic. over 20,000 students have dropped out of school in
 
 In January 2020, the Ministry of Women, Family and Community Development has launched a 5-year [National Strategy Plan in Handling the Causes of Child Marriage](https://www.kpwkm.gov.my/kpwkm/uploads/files/Dokumen/Pelan%20Strategi%20Perkahwinan%20Bawah%20Umur/EXECUTIVE%20SUMMARY.pdf). However two years down the road, the public and civil society organisations question the materialisation of this national strategy plan. We have yet to see the fruition of this extensive plan provided by the Ministry.
 
-<figure class='md:w-1/2 md:float-right md:px-8'>
-<img src="/img/key-issues/child-marriage-2.png" alt="Credits to Monsters Among Us" class='rounded-md shadow-lg'>
-<figcaption align = "center"><b>Credits to Monsters Among Us</b></figcaption>
-</figure>
+
+<div class='flex justify-center'>
+<figure class='md:w-1/2 md:px-8'>
+<img src="/img/key-issues/child-marriage-2.png" alt="Trulli" class='rounded-md shadow-lg'>
+<figcaption align = "center"><b></b></figcaption>
+</figure></div>
 
 Malaysia may be seen as a strongly influenced country by its religious and cultural norms and grievously, this enables the practice of child marriage. We were once shaken by the news of a then 11 year old girl marrying a 41 year old rubber tapper. However, in the shadows, many of our children also end up wedding their romantic partners who are also children themselves. Marriage has been so normalised that in certain communities, the burden of marriage is immediately put onto the shoulders of a girl child once she reaches puberty. This detrimental gender stereotype is also weighing on our boy children as they are pressured to take on very adult and heavy responsibilities at home such as finding income for their families and taking care of the younger siblings.
 

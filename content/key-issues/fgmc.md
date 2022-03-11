@@ -20,10 +20,12 @@ image: "/img/key-issues/fgm.jpg"
 ---
 Female circumcision – also known as female genital cutting or female genital mutilation has been a controversial and sensitive matter in Malaysia. Regrettably, research on female circumcision in Malaysia is scarce.  In 2009, the National Fatwa Committee issued a fatwa that made it obligatory (wajib) for Muslim women to be circumcised unless this was potentially harmful to their wellbeing. All the same, there is still no consensus on this position  among Muslim clerics and religious leaders in the country.
 
-<figure class='md:w-1/2 md:float-right md:px-8'>
+<div class='flex justify-center'>
+<figure class='md:w-1/2 md:px-8'>
 <img src="/img/key-issues/female-1.png" alt="Trulli" class='rounded-md shadow-lg'>
 <figcaption align = "center"><b></b></figcaption>
-</figure>
+</figure></div>
+
 
 Over 90% of Muslim women in the country have been circumcised. Our women provided an array of reasons to subscribing to the practice; “from health and hygiene concerns to cultural and religious beliefs, for a long time the practice here was largely believed to involve scratching, pricking or inflicting a superficial cut on the skin or tip of the clitoris when they were infants and up to the age of six” (FRHAM and ARROW, 2021). 
 Tthe Malaysian government declared that “Malaysia’s kind of FGM/C” is the kind of female circumcision that falls under Type 4 of the World Health Organization FGM classification scheme, i.e., “all other harmful procedures to the female genitalia for non-medical purposes, e.g. pricking, piercing, incising, scraping and cauterising the genital area.” 

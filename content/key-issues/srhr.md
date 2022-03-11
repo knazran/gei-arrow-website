@@ -23,10 +23,12 @@ image: "/img/key-issues/shrh-2.jpg"
 ---
 The fourth priority area in the FRHAM Baseline Monitoring Framework is ensuring universal access to sexual and reproductive health and reproductive rights in accordance with the Cairo Programme of Action and the Beijing Platform of Action in 1994, as well as the outcome documents of their review conferences. 
 
-<figure class='md:w-1/2 md:float-right md:px-8'>
+<div class='flex justify-center'>
+<figure class='md:w-2/3 md:px-8'>
 <img src="/img/key-issues/sexual-1.png" alt="Trulli" class='rounded-md shadow-lg'>
 <figcaption align = "center"><b></b></figcaption>
-</figure>
+</figure></div>
+
 
 The three indicators identified are: (i) laws to guarantee women and men aged 15 years and older access to sexual and reproductive healthcare, information and education; (ii) the proportion of women (15–49 years old) who made their own informed decisions regarding reproductive healthcare, contraceptive use, and sexual relations, and could access sexual and reproductive healthcare services in a public health facility; and (iii) the proportion of married or in-union women of reproductive age (15–49 years old) who have had their need for family planning satisfied with modern methods as well as are able to access sexual and reproductive healthcare services in a public health facility.
 
