@@ -106,6 +106,7 @@ export default {
     '@nuxtjs/tailwindcss',
     'nuxt-vite',
     '@nuxtjs/imagemin',
+    '@nuxtjs/google-gtag'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -121,6 +122,11 @@ export default {
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
+
+  'google-gtag': {
+    // Options
+    id: 'G-56HJCPLBSP',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
