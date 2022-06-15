@@ -4,7 +4,6 @@
 /* purgecss end ignore */
 @import 'tailwindcss/utilities';
 
-/* add fonts here */
 @font-face {
     font-family: "SARI-EXTRABOLDITALIC";
     src: url("../fonts/Sari-ExtraBoldItalic.otf");
