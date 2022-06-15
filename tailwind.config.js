@@ -4,6 +4,7 @@ const round = (num) =>
     .replace(/(\.[0-9]+?)0+$/, '$1')
     .replace(/\.0$/, '')
 const em = (px, base) => `${round(px / base)}em`
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: [],
@@ -48,7 +49,7 @@ module.exports = {
 
     extend: {
       fontFamily: {
-        sans: ['Calibri'],
+        'sans': ['Calibri', ...defaultTheme.fontFamily.sans],
         sariBold: ["SARI-EXTRABOLDITALIC", "sans-serif"],
         sari: ["SARI-MEDIUMITALIC", "sans-serif"],
       },

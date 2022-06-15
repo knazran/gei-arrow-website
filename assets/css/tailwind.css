@@ -13,3 +13,8 @@
     font-family: "SARI-MEDIUMITALIC";
     src: url("../fonts/Sari-MediumItalic.otf");
 }
+
+@font-face {
+    font-family: "Calibri";
+    src: url("../fonts/Calibri\ Regular.ttf");
+}
