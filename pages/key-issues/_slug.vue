@@ -11,6 +11,7 @@
                 text-gei-tertiary-500 text-sm
                 font-semibold
                 mb-1
+                font-sari
               "
             >
               Key Issue
@@ -49,6 +50,7 @@
                   rounded-md
                   py-1
                   px-2
+                  font-sari
                 "
               >
                 <p>Next Issue:</p>

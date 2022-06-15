@@ -4,7 +4,7 @@
       <section id="intro">
         <div class="md:flex">
           <div class="w-full md:w-1/2 p-4 md:p-8 lg:p-20">
-            <h3 class="text-gei-tertiary-500 text-sm font-semibold mb-1">
+            <h3 class="text-gei-tertiary-500 text-sm font-semibold mb-1 font-sari">
               About Us
             </h3>
             <PageTitle title="Malaysia and Gender Equality" />
@@ -62,6 +62,7 @@
                 mb-1
                 text-center
                 md:text-left
+                font-sari
               "
             >
               Our Goal
@@ -96,7 +97,7 @@
               <li
                 v-for="(issue, idx) in keyIssues"
                 :key="issue.title"
-                class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1"
+                class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1 font-sari"
               >
                 <a
                   class="
@@ -134,7 +135,7 @@
                   >
                     <div class="w-full md:w-1/2 md:pr-12">
                       <h3
-                        class="text-gei-tertiary-500 font-semibold text-xl mb-4"
+                        class="text-gei-tertiary-500 font-semibold text-xl mb-4 font-sari"
                       >
                         {{ issue.title }}
                       </h3>

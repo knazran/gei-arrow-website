@@ -8,7 +8,7 @@
             <img :src=partner.image class="h-40 object-contain">
         </div>
         <div class="flex flex-col mt-4 justify-center">
-          <h3 class="text-gei-primary-500 text-center">Funded by:</h3>
+          <h3 class="text-gei-primary-500 text-center font-sari">Funded by:</h3>
         <img src="~/static/img/partners/EU.png" class="my-4 h-48 object-contain">
       
         </div>

@@ -10,10 +10,10 @@
     </div>
 
     <div v-if="!isButton" class="my-4 flex-grow">
-      <p class="text-center text-gei-primary-500 text-lg font-semibold mb-2">
+      <p class="font-sari text-center text-gei-primary-500 text-lg font-semibold mb-2">
         {{ textTop }}
       </p>
-      <p class="text-center font-light text-gei-primary-500 text-mg">
+      <p class="font-sari text-center font-light text-gei-primary-500 text-mg">
         {{ textBot }}
       </p>
     </div>

@@ -5,6 +5,7 @@
         text-xl
         2xl:text-2xl
         text-gei-primary-500
+        font-sariBold
         font-semibold
         tracking-wider
         text-center
@@ -15,6 +16,7 @@
     </h3>
     <p
       class="
+        font-sari
         text-md text-gei-primary-500
         mb-4
         font-light
