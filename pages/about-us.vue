@@ -19,12 +19,12 @@
             </p>
           </div>
           <div class="w-full md:w-1/2">
-            <img src="/static/img/about-us/about-us-3.jpg" />
+            <img src="~/static/img/about-us/about-us-3.jpg" />
           </div>
-        </div>
+      </div>
 
-        <div class="mt-8 px-4 md:px-8 lg:px-20 md:flex">
-          <div class="w-full md:w-1/2 lg:pr-20">
+      <div class="mt-8 md:flex">
+          <div class="w-full md:w-1/2 p-4 md:px-8 lg:px-20">
             <p class="text-gei-primary-400">
               There are significant gaps that continue to exist in the
               implementation of constitutional provisions, laws and policies
@@ -32,9 +32,7 @@
               a lack of governance and implementation mechanisms to hold
               duty-bearers accountable.
             </p>
-          </div>
-          <div class="w-full md:w-1/2">
-            <p class="text-gei-primary-400">
+            <p class="text-gei-primary-400 mt-4">
               For example, child marriage is prevalent in Malaysia and approved
               under Sharia and civil law – one of the major issues flagged in
               the CEDAW report. In theory, the fact that Malaysia acceded to
@@ -45,16 +43,27 @@
               periodically as stipulated).
             </p>
           </div>
-        </div>
+          <div class="w-full md:w-1/2">
+            <img src="~/static/img/about-us/about-us-5.jpeg" />
+          </div>
+      </div>
       </section>
 
       <section id="goals">
         <div class="md:flex items-center">
-          <div class="w-full md:w-1/2">
-            <img src="/static/img/about-us/about-us-4.jpg" />
+          <div class="w-full md:w-1/2 ">
+            <img src="~/static/img/about-us/about-us-4.jpg" />
           </div>
           <div class="w-full md:w-1/2 p-4 md:p-8 lg:p-20">
-            <h3 class="text-gei-tertiary-500 text-sm font-semibold mb-1 text-center md:text-left">
+            <h3
+              class="
+                text-gei-tertiary-500 text-sm
+                font-semibold
+                mb-1
+                text-center
+                md:text-left
+              "
+            >
               Our Goal
             </h3>
             <PageTitle title="An Equal Malaysia" />
@@ -84,7 +93,11 @@
           <div class="w-full my-8 mx-4 md:mx-12">
             <PageTitle title="Key Issues" />
             <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
-              <li v-for="issue, idx in keyIssues" :key="issue.title" class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1">
+              <li
+                v-for="(issue, idx) in keyIssues"
+                :key="issue.title"
+                class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1"
+              >
                 <a
                   class="
                     text-xs
@@ -104,32 +117,36 @@
                   }"
                   @click="toggleTabs(idx)"
                 >
-                  {{issue.title}}
+                  {{ issue.title }}
                 </a>
               </li>
             </ul>
             <div class="relative flex flex-col min-w-0 break-words w-full mb-6">
               <div class="px-4 py-8 flex-auto">
                 <div class="tab-content tab-space">
-                  <div v-for="issue, idx in keyIssues" :key="issue.title" :class="{ hidden: openTab !== idx, 'block md:flex': openTab === idx }">
+                  <div
+                    v-for="(issue, idx) in keyIssues"
+                    :key="issue.title"
+                    :class="{
+                      hidden: openTab !== idx,
+                      'block md:flex': openTab === idx,
+                    }"
+                  >
                     <div class="w-full md:w-1/2 md:pr-12">
                       <h3
                         class="text-gei-tertiary-500 font-semibold text-xl mb-4"
                       >
-                        {{issue.title}}
+                        {{ issue.title }}
                       </h3>
                       <p class="text-gei-primary-500">
-                        {{issue.subtitle}}
+                        {{ issue.subtitle }}
                       </p>
                     </div>
                     <div class="w-full md:w-1/2">
-                      <img
-                        class="rounded-lg"
-                        :src="issue.image"
-                      />
+                      <img class="rounded-lg" :src="issue.image" />
                     </div>
                   </div>
-                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -214,7 +231,7 @@ export default {
   data() {
     return {
       openTab: 0,
-      keyIssues: []
+      keyIssues: [],
     }
   },
   async fetch() {

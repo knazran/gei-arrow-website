@@ -13,13 +13,19 @@ subtitle: Gender-based violence (GBV) refers to harmful acts directed at an
   access to justice for victims of violence, abuse and danger?
 next_issue: null
 next_issue_link: null
-image: "/img/key-issues/gbv-2.png"
+image: "/img/key-issues/gbv-3.jpg"
 ---
 Malaysia has not recognised marital rape. Let that sink in.
 
 In 2017, Malaysia enacted the Sexual Offences against Children Act 2017 but in 2022, we still have yet to see the enactment of our very own Sexual Harassment bill. Malaysia has a special hotline designated for women and children cases but Malaysian NGOs are receiving an increase of crisis calls since the pandemic started.
 
 What does this say about Malaysia? Are we all on the same page to believe that gender based violation is an extreme violation of one’s rights - or are we still hesitating to say the same? Acknowledging the great progress Malaysia has made over the years in protecting women and gender minorities, we are still left behind when it comes to effective crisis intervention and management. 
+
+<div class='flex float-left'>
+<figure class='md:px-8'>
+<img src="/img/key-issues/gbv-4.jpg" alt="Trulli" class='rounded-md shadow-lg'>
+<figcaption align = "center"><b></b></figcaption>
+</figure></div>
 
 “Since 1994, Malaysia has had the Domestic Violence Act (DVA) implemented from 1996 onwards in response to the National Women Policy and its Plan of Action. The government has responded to women’s groups calling for further improvements to this law with amendments in 2011 and 2017. Among others, these widened the definition of domestic violence to cover “emotional, mental and psychological forms of violence”15 and created the Emergency Protection Order to offer survivors quicker protection while at the same time introducing fines for those who contravened this ruling.” (FRHAM, 2021).
 

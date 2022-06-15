@@ -26,12 +26,12 @@
               lg:text-left
             "
           >
-            Gender Equality Initiative
+            What is the Gender Equality Initiative?
           </p>
         </div>
         <div class="my-12">
           <p class="font-thin lg:text-md lg:text-left text-center">
-            The Gender Equality Initiative aims to contribute to the adoption of the gender equality act that aims to abolish discriminatory laws and policies against women and girls and fulfil the human rights of the LGBTIQ community against discrimination and violence in Malaysia.
+            The Gender Equality Initiative aims to contribute to the adoption of the gender equality act that aims to abolish discriminatory laws and policies and fulfil the human rights against women, young people and non binary persons against discrimination and violence in Malaysia.
           </p>
         </div>
         <!-- Button -->

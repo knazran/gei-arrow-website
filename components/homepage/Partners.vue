@@ -4,7 +4,7 @@
       <PageTitle title="Our Partners" />
       <!-- <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 2xl:grid-cols-5 mt-10 gap-8"> -->
       <div class="flex flex-wrap flex-shrink-0 mt-8 spaces-x-8 justify-center">
-        <div v-for="partner of partners" :key="partner.name" class="p-4 flex rounded-md justify-center w-1/2 md:w-1/3 ">
+        <div v-for="partner of partners" :key="partner.name" class="p-4 flex rounded-md justify-center w-1/2 md:w-1/4 ">
             <img :src=partner.image class="h-40 object-contain">
         </div>
         <div class="flex flex-col mt-4 justify-center">
@@ -26,7 +26,6 @@ export default {
   },
   async fetch() {
     const data = await this.$content('partners').fetch()
-    console.log(data)
     this.partners = data[0].partners
   },
 }

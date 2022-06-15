@@ -14,8 +14,7 @@
         >
           <div>
             <p class="font-medium text-xl text-left">
-              Women and girls in Malaysia account for 48.6% of the total population. Despite representing almost half of the nation’s population, they are also mostly discriminated upon. Is Malaysia progressing towards achieving gender equality?
-
+              Women and girls in Malaysia account for 48.6% of the total population. How is Malaysia progressing towards achieving gender equality?
             </p>
           </div>
         </div>

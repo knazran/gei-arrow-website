@@ -23,9 +23,9 @@ image: "/img/key-issues/shrh-2.jpg"
 ---
 The fourth priority area in the FRHAM Baseline Monitoring Framework is ensuring universal access to sexual and reproductive health and reproductive rights in accordance with the Cairo Programme of Action and the Beijing Platform of Action in 1994, as well as the outcome documents of their review conferences. 
 
-<div class='flex justify-center'>
-<figure class='md:w-2/3 md:px-8'>
-<img src="/img/key-issues/sexual-1.png" alt="Trulli" class='rounded-md shadow-lg'>
+<div class='flex float-left'>
+<figure class='md:px-8'>
+<img src="/img/key-issues/shrh-3.jpg" alt="Trulli" class='rounded-md shadow-lg'>
 <figcaption align = "center"><b></b></figcaption>
 </figure></div>
 
@@ -35,6 +35,12 @@ The three indicators identified are: (i) laws to guarantee women and men aged 15
 Despite having the Ministry of Health providing comprehensive healthcare services for all age groups and genders, including SRH services at minimal cost, accessibility is still a gap present due to social and religious stigma. Internally, there are policies by the health authorities that may compromise the rights to privacy and confidentiality of women at risk. “For an example, government hospital doctors are required to report cases of single Muslim women who are pregnant.”
 
 In paralell, A UNICEF report found that Malaysia’s policies on sex education is still deprived of clear and unambiguous knowledge and information sharing. Regardless of the numerous SRH policies established, the very importance of having comprehensive SRH services, including education gets lost in translation. 
+
+<div class='flex float-left'>
+<figure class='md:px-8'>
+<img src="/img/key-issues/shrh-4.jpg" alt="Trulli" class='rounded-md shadow-lg'>
+<figcaption align = "center"><b></b></figcaption>
+</figure></div>
 
 In 2012, the Ministry made a positive progress by introducing a guideline on Managing Adolescents Sexual and Reproductive Health Issues in Health Clinics. This initiative is to promote youth-friendly services in all healthcare facilities throughout Malaysia. With the guideline, it will help healthcare providers in their treatment of adolescents, particularly girls who come for pregnancy-related services, contraceptives, sexually transmitted infections, and as survivors of sexual violence.
 
