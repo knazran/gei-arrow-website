@@ -20,6 +20,7 @@
         <div class="mb-5">
           <p
             class="
+              font-sariBold
               font-bold
               lg:text-3xl
               text-2xl text-center
@@ -30,7 +31,7 @@
           </p>
         </div>
         <div class="my-12">
-          <p class="font-thin lg:text-md lg:text-left text-center">
+          <p class="font-sari font-thin lg:text-md lg:text-left text-center">
             The Gender Equality Initiative aims to contribute to the adoption of the gender equality act that aims to abolish discriminatory laws and policies and fulfil the human rights against women, young people and non binary persons against discrimination and violence in Malaysia.
           </p>
         </div>

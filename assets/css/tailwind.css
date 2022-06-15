@@ -1,0 +1,16 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+/* add fonts here */
+@font-face {
+    font-family: "SARI-EXTRABOLDITALIC";
+    src: url("../fonts/Sari-ExtraBoldItalic.otf");
+}
+
+@font-face {
+    font-family: "SARI-MEDIUMITALIC";
+    src: url("../fonts/Sari-MediumItalic.otf");
+}

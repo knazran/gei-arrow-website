@@ -156,6 +156,13 @@
                 :style="{ color: '#6C2B8F' }"
               />
             </a>
+            <a href="mailto:online@arrow.org.my" target="_blank">
+              <iconify-icon
+                :icon="icons.email"
+                height="28"
+                :style="{ color: '#6C2B8F' }"
+              />
+            </a>
           </div>
           <button
             type="button"
@@ -228,6 +235,8 @@ import facebook from '@iconify-icons/mdi/facebook'
 import youtube from '@iconify-icons/mdi/youtube'
 import twitter from '@iconify-icons/mdi/twitter'
 import instagram from '@iconify-icons/mdi/instagram'
+import email from '@iconify-icons/mdi/email'
+
 export default {
   components: { IconifyIcon },
   data() {
@@ -238,6 +247,7 @@ export default {
         youtube,
         twitter,
         instagram,
+        email
       },
       listOne: false,
       listTwo: false,

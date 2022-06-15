@@ -47,6 +47,11 @@ module.exports = {
     },
 
     extend: {
+      fontFamily: {
+        sans: ['Calibri'],
+        sariBold: ["SARI-EXTRABOLDITALIC", "sans-serif"],
+        sari: ["SARI-MEDIUMITALIC", "sans-serif"],
+      },
       typography: {
         'mau': {
           css: {
