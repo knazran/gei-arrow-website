@@ -18,7 +18,7 @@
               women, girls and LGBTIQ persons.
             </p>
           </div>
-          <div class="w-full md:w-1/2">
+          <div class="w-full md:w-1/2 md:py-20 md:px-8">
             <img src="~/static/img/about-us/about-us-3.jpg" />
           </div>
       </div>
@@ -43,7 +43,7 @@
               periodically as stipulated).
             </p>
           </div>
-          <div class="w-full md:w-1/2">
+          <div class="w-full md:w-1/2 md:px-8">
             <img src="~/static/img/about-us/about-us-5.jpeg" />
           </div>
       </div>
@@ -51,7 +51,7 @@
 
       <section id="goals">
         <div class="md:flex items-center">
-          <div class="w-full md:w-1/2 ">
+          <div class="w-full md:w-1/2 md:py-20 md:px-8">
             <img src="~/static/img/about-us/about-us-4.jpg" />
           </div>
           <div class="w-full md:w-1/2 p-4 md:p-8 lg:p-20">

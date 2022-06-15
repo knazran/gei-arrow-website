@@ -19,8 +19,8 @@ next_issue: Comprehensive Sexuality Education (CSE)
 next_issue_link: /key-issues/comprehensive-sexuality-edu
 image: "/img/key-issues/child-marriage.jpg"
 ---
-<div class='flex float-left'>
-<figure class='md:px-8'>
+<div class='flex float-left md:w-1/2'>
+<figure class='md:max-w-1/2  md:px-8'>
 <img src="/img/key-issues/child-marriage-1.png" alt="Trulli" class='rounded-md shadow-lg'>
 <figcaption align = "center">Source: #PelajarBukanPengantin</figcaption>
 </figure></div>
@@ -32,8 +32,8 @@ Statistics from the Ministry of Women, Family and Community Development (MWFCD) 
 In January 2020, the Ministry of Women, Family and Community Development has launched a 5-year [National Strategy Plan in Handling the Causes of Child Marriage](https://www.kpwkm.gov.my/kpwkm/uploads/files/Dokumen/Pelan%20Strategi%20Perkahwinan%20Bawah%20Umur/EXECUTIVE%20SUMMARY.pdf). However two years down the road, the public and civil society organisations question the materialisation of this national strategy plan. We have yet to see the fruition of this extensive plan provided by the Ministry.
 
 
-<div class='flex float-right'>
-<figure class='md:px-8'>
+<div class='flex float-left md:w-1/2'>
+<figure class=' md:px-8'>
 <img src="/img/key-issues/child-marriage-2.png" alt="Trulli" class='rounded-md shadow-lg'>
 <figcaption align = "center">Source: Monsters Among Us</figcaption>
 </figure></div>
@@ -42,4 +42,4 @@ Malaysia may be seen as a strongly influenced country by its religious and cultu
 
 #PelajarBukanPengantin which translates to #StudentsNotSpouse is Malaysia’s organic, collaborative and earnest attempt to increase the minimum age of marriage in Malaysia. The movement was led by a chain of CSO and concerned Malaysians. Malaysia must learn to create lenses where we see children as children, and not as adults. By allowing child marriage, we deprive children of many of their rights - and it is our core duty to prevent that.
 
-Join the fight #PelajarBukanPengantin by following their [official page](https://www.instagram.com/pelajarbukanpengantin/?hl=en )
+Join the fight #PelajarBukanPengantin by following their [official page](https://www.instagram.com/pelajarbukanpengantin/?hl=en ).

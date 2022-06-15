@@ -21,7 +21,7 @@ In 2017, Malaysia enacted the Sexual Offences against Children Act 2017 but in 2
 
 What does this say about Malaysia? Are we all on the same page to believe that gender based violation is an extreme violation of one’s rights - or are we still hesitating to say the same? Acknowledging the great progress Malaysia has made over the years in protecting women and gender minorities, we are still left behind when it comes to effective crisis intervention and management. 
 
-<div class='flex float-left'>
+<div class='flex float-left md:w-1/2'>
 <figure class='md:px-8'>
 <img src="/img/key-issues/gbv-4.jpg" alt="Trulli" class='rounded-md shadow-lg'>
 <figcaption align = "center"><b></b></figcaption>

@@ -1,7 +1,6 @@
 <template>
   <button
     class="
-      font-sari
       rounded-lg
       bg-gei-tertiary-500
       text-center text-white

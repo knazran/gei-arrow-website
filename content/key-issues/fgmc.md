@@ -20,8 +20,8 @@ image: "/img/key-issues/fgm.jpg"
 ---
 Female circumcision – also known as female genital cutting or female genital mutilation has been a controversial and sensitive matter in Malaysia. Regrettably, research on female circumcision in Malaysia is scarce.  In 2009, the National Fatwa Committee issued a fatwa that made it obligatory (wajib) for Muslim women to be circumcised unless this was potentially harmful to their wellbeing. All the same, there is still no consensus on this position  among Muslim clerics and religious leaders in the country.
 
-<div class='flex justify-center'>
-<figure class='md:w-1/2 md:px-8'>
+<div class='flex float-left md:w-1/2'>
+<figure class='md:px-8'>
 <img src="/img/key-issues/female-1.png" alt="Trulli" class='rounded-md shadow-lg'>
 <figcaption align = "center"><b></b></figcaption>
 </figure></div>

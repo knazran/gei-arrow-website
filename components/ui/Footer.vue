@@ -38,8 +38,6 @@
         <div class="lg:w-1/3 w-full">
           <ul class="text-gei-primary-400 font-thin text-sm">
             <NuxtLink to='/our-policies/privacy-policy'><li>Privacy Policy</li></NuxtLink>
-            
-           <NuxtLink to='/enquiries'><li>Enquiries</li></NuxtLink>
           </ul>
         </div>
       </div>

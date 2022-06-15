@@ -22,7 +22,7 @@ image: "/img/key-issues/discrimination.jpg"
 In Malaysia, the highest law of the land – the Federal Constitution – states that all persons in this country are equal before the law and entitled to the equal protection of the law (Article 8(1). In addition, since 2001, Article 8(2) of this Constitution has prohibited discrimination on the basis of gender as stated, “there shall be no discrimination against citizens on the ground only of religion, race, descent, place of birth or gender in any law or in the appointment to any office or employment under a public authority or in the administration of any law relating to the acquisition, holding or disposition of property or the establishing or carrying on of any trade, business, profession, vocation or employment.”
 
 
-<div class='flex float-left'>
+<div class='flex float-left md:w-1/2'>
 <figure>
 <img src="/img/key-issues/discrimination-2.png" alt="Trulli" >
 <figcaption align = "center"><b></b></figcaption>
@@ -34,4 +34,4 @@ These legal inconsistencies on gender-based discrimination, education, women’s
 
 Former governments, Barisan Nasional (BN) and Pakatan Harapan (PH) had pledged to further this law to its realisation. Alas, to no avail as the efforts were unsuccessful despite several MPs having pushed for the implementation. :Although the latter made greater strides in this regard, its premature termination as government halted any potential progress. Meanwhile, the current Perikatan Nasional government has not indicated its position on this matter.” (FRHAM and ARROW, 2021).
 
-Read more [here](https://bit.ly/GEI_genderequality )
+Read more [here](https://bit.ly/GEI_genderequality ).

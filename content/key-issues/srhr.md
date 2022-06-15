@@ -23,7 +23,7 @@ image: "/img/key-issues/shrh-2.jpg"
 ---
 The fourth priority area in the FRHAM Baseline Monitoring Framework is ensuring universal access to sexual and reproductive health and reproductive rights in accordance with the Cairo Programme of Action and the Beijing Platform of Action in 1994, as well as the outcome documents of their review conferences. 
 
-<div class='flex float-left'>
+<div class='flex float-left md:w-1/2'>
 <figure class='md:px-8'>
 <img src="/img/key-issues/shrh-3.jpg" alt="Trulli" class='rounded-md shadow-lg'>
 <figcaption align = "center"><b></b></figcaption>
@@ -36,7 +36,7 @@ Despite having the Ministry of Health providing comprehensive healthcare service
 
 In paralell, A UNICEF report found that Malaysia’s policies on sex education is still deprived of clear and unambiguous knowledge and information sharing. Regardless of the numerous SRH policies established, the very importance of having comprehensive SRH services, including education gets lost in translation. 
 
-<div class='flex float-left'>
+<div class='flex float-left md:w-1/2'>
 <figure class='md:px-8'>
 <img src="/img/key-issues/shrh-4.jpg" alt="Trulli" class='rounded-md shadow-lg'>
 <figcaption align = "center"><b></b></figcaption>
