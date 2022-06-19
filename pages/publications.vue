@@ -1,9 +1,22 @@
 <template>
   <BackgroundWrapper color='beige'>
     <div class="py-4">
-      <div class="md:py-4 relative z-10">
         <PageSection id="publications">
-          <PageTitle title="List of Publications" />
+          <div class="md:flex mb-12 md:mb-20">
+            <div class="w-full md:w-1/2 md:p-8">
+            <img src="~/static/img/resources/resources-1.png" />
+          </div>
+          <div class="w-full md:w-1/2 flex flex-col justify-center">
+            <PageTitle title="Grounding Human Rights in Malaysia for All: Embracing Change Advocacy Brief" />
+            <p class="text-gei-primary-400 mb-12">
+              Together, let's develop the gender lens of young persons in Malaysia to further the cause for gender equality.
+            </p>
+            <a href="https://www.google.com" target='_blank'>
+              <button class="rounded-lg bg-gei-tertiary-500 text-white px-4 py-2 text-sm">Download Now</button>
+            </a>
+          </div>
+      </div>
+      <PageTitle title="List of Publications" />
           <div
             class="
               grid
@@ -26,7 +39,6 @@
             </div>
           </div>
         </PageSection>
-      </div>
     </div>
   </BackgroundWrapper>
 </template>
