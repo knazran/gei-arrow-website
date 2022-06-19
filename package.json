@@ -21,7 +21,8 @@
     "nuxt": "^2.15.7",
     "vue-horizontal": "^0.8.10",
     "vue-horizontal-timeline": "^0.10.0",
-    "vue-slick-carousel": "^1.0.6"
+    "vue-slick-carousel": "^1.0.6",
+    "vue-tweet-embed": "^2.4.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",

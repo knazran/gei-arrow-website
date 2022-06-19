@@ -1,39 +1,56 @@
 <template>
   <div class="bg-gei-secondary-200 h-full">
     <div class="container mx-auto py-8 lg:py-12 px-4 lg:px-8">
-    <PageTitle title="GEI x Malaysian Youths "/>
-      <div
-        class="
-          mt-10
-          space-y-12
-          md:space-y-0 md:space-x-8
-          items-stretch
-          grid md:grid-cols-2 xl:grid-cols-3  gap-8 py-8
-        "
-      >
-        <a
-          v-for="collab in collabs"
-          :key="collab.name"
-          class="flex justify-center hover:shadow-2xl hover:border"
-          :href="collab.link"
-          target="_blank"
-        >
-          <SimpleThumbnailCard
-            :is-button="false"
-            :text-top="collab.name"
-            :image="collab.image"
+      <PageTitle title="GEI x Malaysian Youths " />
+      <div class="md:flex">
+        <div class="w-full md:w-1/2 mt-10 px-4">
+          <VueSlickCarousel v-if="collabs.length" v-bind="settings">
+            <a
+            v-for="collab in collabs"
+            :key="collab.name"
+            class="flex justify-center hover:shadow-2xl hover:border"
+            :href="collab.link"
+            target="_blank"
+          >
+            <SimpleThumbnailCard
+              :is-button="false"
+              :text-top="collab.name"
+              :image="collab.image"
+            />
+          </a>
+          </VueSlickCarousel>
+        </div>
+        <div class="w-full md:w-1/2 md:ml-24">
+          <Timeline
+            id="ARROW_Women"
+            source-type="profile"
+            :options="{ height: '600' }"
           />
-        </a>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import VueSlickCarousel from 'vue-slick-carousel'
+// optional style for arrows & dots
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+import { Timeline } from 'vue-tweet-embed'
 export default {
+  components: { Timeline, VueSlickCarousel },
   data() {
     return {
       collabs: [],
+      settings: {
+        focusOnSelect: true,
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        speed: 500,
+        lazyLoad: "ondemand"
+      },
     }
   },
   async fetch() {
@@ -44,7 +61,10 @@ export default {
 </script>
 
 <style scoped>
-#describe {
-  font-size: 1.8rem;
+.slick-list {
+  margin: 0 -5px;
+}
+.slick-slide > div {
+  padding: 0 5px;
 }
 </style>
