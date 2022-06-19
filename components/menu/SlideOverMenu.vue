@@ -41,6 +41,10 @@
               <MenuButton text="Sexual Reproductive Health & Rights Services" to="/key-issues/srhr"></MenuButton>
               <MenuButton text="Gender Based Violence" to="/key-issues/gbv"></MenuButton>
             </MenuAccordion>
+            <MenuAccordion title="Resources">
+              <MenuButton text="Publications" to="/publications"></MenuButton>
+              <MenuButton text="Happenings" to="/happenings"></MenuButton>
+            </MenuAccordion>
             <!-- <MenuAccordion title="Media">
               <MenuButton
                 text="News Room"
@@ -51,10 +55,10 @@
                 to="/media/media-features"
               ></MenuButton>
             </MenuAccordion> -->
-            <MenuButton
+            <!-- <MenuButton
                 text="Join Us"
                 to="/join-us"
-              ></MenuButton>
+              ></MenuButton> -->
 
             
           </div>

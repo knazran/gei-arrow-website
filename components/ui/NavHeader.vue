@@ -34,8 +34,9 @@
                 </li>
 
                 <li @mouseover="listTwo = true" @mouseleave="listTwo = false">
-                  <a class="hover:bg-gei-secondary-200 rounded-md block">Key Issues</a>
-                    
+                  <a class="hover:bg-gei-secondary-200 rounded-md block"
+                    >Key Issues</a
+                  >
 
                   <transition name="fade">
                     <ul v-if="listTwo" @click="listTwo = false">
@@ -70,7 +71,7 @@
                         >
                           Female Genital Mutilation
                         </NuxtLink>
-                        </li>
+                      </li>
                       <li>
                         <NuxtLink
                           to="/key-issues/srhr"
@@ -91,26 +92,35 @@
                   </transition>
                 </li>
 
-                <!-- <li @mouseover="listFour = true" @mouseleave="listFour = false">
-                  <NuxtLink
-                    to="/key-issues"
-                    class="hover:bg-gei-secondary-200 rounded-md block"
+                <li
+                  @mouseover="listThree = true"
+                  @mouseleave="listThree = false"
+                >
+                  <a class="hover:bg-gei-secondary-200 rounded-md block"
+                    >Resources</a
                   >
-                    Media
-                  </NuxtLink>
-
                   <transition name="fade">
-                    <ul v-if="listFour" @click="listFour = false">
-                      <li><NuxtLink
-                    to="/media/media-features"
-                    class="hover:bg-gei-secondary-200 rounded-md block"
-                  >
-                    Media Features
-                  </NuxtLink></li>
+                    <ul v-if="listThree" @click="listThree = false">
+                      <li>
+                        <NuxtLink
+                          to="/publications"
+                          class="hover:bg-gei-secondary-200 rounded-md block"
+                        >
+                          Publications
+                        </NuxtLink>
+                      </li>
+                      <li>
+                        <NuxtLink
+                          to="/happenings"
+                          class="hover:bg-gei-secondary-200 rounded-md block"
+                        >
+                          Happenings
+                        </NuxtLink>
+                      </li>
                     </ul>
                   </transition>
-                </li> -->
-
+                </li>
+<!-- 
                 <li>
                   <NuxtLink
                     to="/join-us"
@@ -118,7 +128,7 @@
                   >
                     Join Us
                   </NuxtLink>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>
@@ -126,14 +136,7 @@
         <div class="inset-y-0 right-0 flex items-center pr-2">
           <div
             id="social-media"
-            class="
-              flex
-              space-x-1
-              lg:space-x-4
-              md:mb-0
-              mx-4
-              items-center
-            "
+            class="flex space-x-1 lg:space-x-4 md:mb-0 mx-4 items-center"
           >
             <a href="https://www.facebook.com/ARROW.Women " target="_blank">
               <iconify-icon
@@ -247,7 +250,7 @@ export default {
         youtube,
         twitter,
         instagram,
-        email
+        email,
       },
       listOne: false,
       listTwo: false,
