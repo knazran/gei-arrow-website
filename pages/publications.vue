@@ -30,7 +30,7 @@
             <!-- Need to add text -->
             <div v-for="publication of publications" :key="publication.name">
               <div class="flex flex-col">
-                <img class="object-fit h-80" :src="publication.thumbnail" />
+                <img class="object-cover h-96" :src="publication.thumbnail" />
                 <p class="my-4 font-sari text-md text-gei-primary-500">{{ publication.name }}</p>
                 <a :href="publication.link" target='_blank'>
                   <button class="rounded-lg bg-gei-tertiary-500 text-white px-4 py-2 text-sm">Download Here</button>
