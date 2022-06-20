@@ -1,26 +1,33 @@
 <template>
   <div class="bg-gei-secondary-200 h-full">
     <div class="container mx-auto py-8 lg:py-12 px-4 lg:px-8">
-      <PageTitle title="GEI x Malaysian Youths " />
+      <PageTitle title="GEI x Youth Rights Defenders" />
       <div class="md:flex">
         <div class="w-full md:w-1/2 mt-10 px-4">
           <VueSlickCarousel v-if="collabs.length" v-bind="settings">
             <a
-            v-for="collab in collabs"
-            :key="collab.name"
-            class="flex justify-center hover:shadow-2xl hover:border"
-            :href="collab.link"
-            target="_blank"
-          >
-            <SimpleThumbnailCard
-              :is-button="false"
-              :text-top="collab.name"
-              :image="collab.image"
-            />
-          </a>
+              v-for="collab in collabs"
+              :key="collab.name"
+              class="flex justify-center hover:shadow-2xl hover:border"
+              :href="collab.link"
+              target="_blank"
+            >
+              <SimpleThumbnailCard
+                :is-button="false"
+                :text-top="collab.name"
+                :image="collab.image"
+              />
+            </a>
           </VueSlickCarousel>
+          <p class="text-sm text-gei-primary-400">
+            The GEI project collaborated with amazing youth rights defenders to
+            collaboratively addressing gaps in the society and contributing our
+            respective expertise through social media content. It was an attempt
+            to strengthen the visibility of the social movement to achieve
+            gender equality in Malaysia.
+          </p>
         </div>
-        <div class="w-full md:w-1/2 md:ml-24">
+        <div class="w-full md:w-1/2 md:ml-8 xl:ml-24">
           <Timeline
             id="ARROW_Women"
             source-type="profile"

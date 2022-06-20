@@ -1,10 +1,6 @@
 ---
 title: Happenings
 happenings: 
-    - title: JOHNNY DEPP-AMBER HEARD TRIAL EXPLAINED
-      link: https://www.bfm.my/podcast/bigger-picture/today-i-learned/johnny-depp-amber-heard-trial-explained
-      date: 7 June 2022
-      excerpt: On the 1st of June, Johnny Depp won his defamation trial against Amber Heard. It was televised live and social media consumed and commented on it like a spectator sport or reality tv. While some people watched the entirety of the trial, many others kept up by watching bits and pieces circulating on social media in the form of memes. The entire thing was bizarre, to say the least. Netizens cheered and clapped for Johnny Depp and poked fun at Amber Heard. 
     - title: THE COST OF CHILDCARE
       link: https://www.bfm.my/podcast/evening-edition/inside-story/childcare-children-parenting-cost-of-living
       date: 1 June 2022

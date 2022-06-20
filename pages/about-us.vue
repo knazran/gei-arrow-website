@@ -238,7 +238,6 @@ export default {
   async fetch() {
     // const data = await this.$content('key-issues').fetch()
     this.keyIssues = await this.$content('key-issues').fetch()
-    console.log(this.keyIssues)
   },
   methods: {
     toggleTabs(tabNumber) {
