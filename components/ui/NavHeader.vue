@@ -120,6 +120,15 @@
                     </ul>
                   </transition>
                 </li>
+                <li>
+                  <a
+                    href="http://eepurl.com/grmcVz"
+                    target="_blank"
+                    class="hover:bg-gei-secondary-200 rounded-md block bg-gei-tertiary-500"
+                  >
+                    <p class="text-white">Sign Up For Newsletter</p>
+                  </a>
+                </li>
 <!-- 
                 <li>
                   <NuxtLink

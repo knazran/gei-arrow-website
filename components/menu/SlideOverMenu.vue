@@ -45,6 +45,16 @@
               <MenuButton text="Publications" to="/publications"></MenuButton>
               <MenuButton text="Happenings" to="/happenings"></MenuButton>
             </MenuAccordion>
+            <div class="mt-8 flex justify-center">
+              <a
+                  href="http://eepurl.com/grmcVz"
+                  target="_blank"
+                  
+                >
+                <button class="rounded-md block bg-gei-tertiary-500 text-white px-4 py-2">Sign Up For Newsletter</button>
+                </a>
+            </div>
+              
             <!-- <MenuAccordion title="Media">
               <MenuButton
                 text="News Room"
