@@ -10,5 +10,4 @@ partners:
     - image: /img/partners/rehak kelantan.jpg
       name: REHAK
     
-
 ---
