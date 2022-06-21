@@ -21,7 +21,7 @@
           </VueSlickCarousel>
           <p class="text-sm text-gei-primary-400">
             The GEI project collaborated with amazing youth rights defenders to
-            collaboratively addressing gaps in the society and contributing our
+            collaboratively address gaps in the society and contribute our
             respective expertise through social media content. It was an attempt
             to strengthen the visibility of the social movement to achieve
             gender equality in Malaysia.

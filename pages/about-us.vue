@@ -4,7 +4,9 @@
       <section id="intro">
         <div class="md:flex">
           <div class="w-full md:w-1/2 p-4 md:p-8 lg:p-20">
-            <h3 class="text-gei-tertiary-500 text-sm font-semibold mb-1 font-sari">
+            <h3
+              class="text-gei-tertiary-500 text-sm font-semibold mb-1 font-sari"
+            >
               About Us
             </h3>
             <PageTitle title="Malaysia and Gender Equality" />
@@ -17,14 +19,6 @@
               international human rights agreements, particularly with regard to
               women, girls and LGBTIQ persons.
             </p>
-          </div>
-          <div class="w-full md:w-1/2 md:py-20 md:px-8">
-            <img src="~/static/img/about-us/about-us-3.jpg" />
-          </div>
-      </div>
-
-      <div class="mt-8 md:flex">
-          <div class="w-full md:w-1/2 p-4 md:px-8 lg:px-20">
             <p class="text-gei-primary-400">
               There are significant gaps that continue to exist in the
               implementation of constitutional provisions, laws and policies
@@ -43,10 +37,31 @@
               periodically as stipulated).
             </p>
           </div>
+          <div class="w-full md:w-1/2 md:py-20 md:px-8">
+            <img src="~/static/img/about-us/about-us-3.jpg" />
+          </div>
+        </div>
+
+        <div class="mt-8 md:flex">
+          <div class="w-full md:w-1/2 p-4 md:px-8 lg:px-20">
+            <p class="text-gei-primary-400">
+              ARROW together with our partners Federation of Reproductive Health
+              Associations, Malaysia (FRHAM), Reproductive Health Association of
+              Kelantan, ReHAK and Justice for Sisters (JFS) launched the Gender
+              Equality in Malaysia (GEI) initiative.
+            </p>
+            <p class="text-gei-primary-400 mt-4">
+              Since its inception in 2020, the project has witnessed significant
+              joint collaborations and partnerships between various stakeholders
+              including the government, international and UN agencies, and civil
+              society organisations coming together to advance the status of
+              gender equality in Malaysia.
+            </p>
+          </div>
           <div class="w-full md:w-1/2 md:px-8">
             <img src="~/static/img/about-us/about-us-5.jpeg" />
           </div>
-      </div>
+        </div>
       </section>
 
       <section id="goals">
@@ -97,7 +112,15 @@
               <li
                 v-for="(issue, idx) in keyIssues"
                 :key="issue.title"
-                class="-mb-px mr-2 last:mr-0 flex-auto text-center py-1 font-sari"
+                class="
+                  -mb-px
+                  mr-2
+                  last:mr-0
+                  flex-auto
+                  text-center
+                  py-1
+                  font-sari
+                "
               >
                 <a
                   class="
@@ -135,7 +158,13 @@
                   >
                     <div class="w-full md:w-1/2 md:pr-12">
                       <h3
-                        class="text-gei-tertiary-500 font-semibold text-xl mb-4 font-sari"
+                        class="
+                          text-gei-tertiary-500
+                          font-semibold
+                          text-xl
+                          mb-4
+                          font-sari
+                        "
                       >
                         {{ issue.title }}
                       </h3>
