@@ -11,7 +11,7 @@
             <p class="text-gei-primary-400 mb-12">
               Together, let's develop the gender lens of young persons in Malaysia to further the cause for gender equality.
             </p>
-            <a href="https://drive.google.com/file/d/171gO-Ki5zzK34T4SVvU_dXL6gJWjoweX/view" target='_blank'>
+            <a href="~/static/pdf/EmbracingChange_AdvocacyBrief_GEI.pdf" download>
               <button class="rounded-lg bg-gei-tertiary-500 text-white px-4 py-2 text-sm">Download Now</button>
             </a>
           </div>
@@ -32,7 +32,7 @@
               <div class="flex flex-col">
                 <img class="object-cover h-96" :src="publication.thumbnail" />
                 <p class="my-4 font-sari text-md text-gei-primary-500">{{ publication.name }}</p>
-                <a :href="publication.link" target='_blank'>
+                <a :href="publication.link" target="_blank">
                   <button class="rounded-lg bg-gei-tertiary-500 text-white px-4 py-2 text-sm">Download Here</button>
                 </a>
               </div>
