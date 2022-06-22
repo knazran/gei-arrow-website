@@ -11,7 +11,7 @@
             <p class="text-gei-primary-400 mb-12">
               Together, let's develop the gender lens of young persons in Malaysia to further the cause for gender equality.
             </p>
-            <a href="~/static/pdf/EmbracingChange_AdvocacyBrief_GEI.pdf" download>
+            <a href="/pdf/EmbracingChange_AdvocacyBrief_GEI.pdf" download>
               <button class="rounded-lg bg-gei-tertiary-500 text-white px-4 py-2 text-sm">Download Now</button>
             </a>
           </div>
