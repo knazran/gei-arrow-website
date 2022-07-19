@@ -1,9 +1,9 @@
 ---
 title: >
     Gay Little Article
-image: /img/key-issues/discrimination.jpg
+image: "/img/key-issues/discrimination.jpg"
 author: ""
-date: 2021-05-16T17:16:31.032Z
+date: 2021-07-19T17:16:31.032Z
      
 
 ---
@@ -28,5 +28,6 @@ I cannot even begin to describe the collective trauma Malaysia has forced onto i
 One of my biggest issues with LGBTQ+ culture in Malaysia is that there really is no safe child-friendly space for queer children to figure out their identities and find a sense of community. There is no space for queer children to learn about sexual safety and exploitation, because this country does not even acknowledge their existence at all. What are we trying to say here? That all these young gay men deserved it? That their trauma is negligible? That it was because they’re gay? So much for “child protection”, when you decide which children get to be safe. In practice, this would look like sexual education in schools taking into consideration LGBTQ+ identities and understanding how LGBTQ+ children need somewhat specified sex education considering our struggles are considerably different. At home, I would like to see parents not treat LGBTQ+ sexuality as something dirty or shameful; that is how these children get exploited and hide the exploitation out of shame. I want to stop seeing the media portray LGBTQ+ sexuality and love as unnatural; but more importantly, I want the mass media to stop fetishizing LGBTQ+ sexuality as well. This sends a message that their sexualities are something to be fetishized, which is incredibly damaging to a child’s psyche. But before any of that, the Malaysian government has to finally recognize LGBTQ+ persons in their own country and stop persecuting innocent citizens for merely existing and living their lives. Let’s start there. 
 
 This Pride: I don’t want young LGBTQ+ children to grow up with the same shame and guilt we did. I don’t want them to grow up with the same self hate we did. Enough repression, enough oppression. The queer children are not alright, and Malaysia has done nothing about it. 
+
 
 

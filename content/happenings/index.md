@@ -1,6 +1,10 @@
 ---
 title: Happenings
 happenings: 
+    - title: Gay Little Article
+      link: /blog/gay-little-article
+      date: 19 July 2022
+      excerpt: I think I’ve always known I was queer. Your eyes linger a bit too long on a gender it should not, those out-of-place sex scenes felt all the more out of place and the “you got a girlfriend?” interrogations become tiresome but also existential - “why don’t I have a girlfriend?”
     - title: THE COST OF CHILDCARE
       link: https://www.bfm.my/podcast/evening-edition/inside-story/childcare-children-parenting-cost-of-living
       date: 1 June 2022
